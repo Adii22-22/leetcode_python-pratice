@@ -41,6 +41,7 @@ Current Focus:
 | 8  | 217. Contains Duplicate | Easy | Nov 6, 2025 | contains_duplicate.py |
 | 9  | 121. Best Time to Buy and Sell Stock | Easy | Nov 7, 2025 | best_time_to_buy_sell_stock.py |
 | 10 | 14. Longest Common Prefix | Easy | Nov 6, 2025 | longest_common_prefix.py |
+| 11 | 58. Length of last word | Easy | nov 8, 2025 | length_of_last_word.py |
 
 ---
 
@@ -103,6 +104,14 @@ Each problem file includes:
 - Python Projects Completed: 3
 - GitHub Repositories: 1 main (Simple Mini Projects)
 - Active Learning Phase: Data Structures & Algorithms
+
+**Nov 8, 2025**
+- Solved today's LeetCode problem.
+- Learned file handling using CSV.
+- Integrated CSV persistence into To-Do List project.
+- Implemented Add, View, and Delete features successfully.
+- Verified error handling and file reading logic.
+
 
 ---
 
