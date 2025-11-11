@@ -1,50 +1,43 @@
 # -------------------------------------------------------------
-# LeetCode Problem: 88. Merge Sorted Array
-# Solved on: Nov 9, 2025
+# LeetCode Problem: 121. Best Time to Buy and Sell Stock
+# Solved on: Nov 7, 2025
 # Difficulty: Easy
 # Language: Python
 # -------------------------------------------------------------
 # Problem Statement:
-# You are given two sorted integer arrays nums1 and nums2, and two integers m and n, 
-# representing the number of elements in nums1 and nums2 respectively.
-# Merge nums2 into nums1 as one sorted array in-place.
+# You are given an array prices where prices[i] is the price of a given stock on the i-th day.
+# You want to maximize your profit by choosing a single day to buy one stock and choosing a 
+# different day in the future to sell that stock.
+# Return the maximum profit you can achieve. If you cannot achieve any profit, return 0.
 #
 # Example:
-# Input: nums1 = [1,2,3,0,0,0], m = 3
-#        nums2 = [2,5,6], n = 3
-# Output: [1,2,2,3,5,6]
+# Input: prices = [7,1,5,3,6,4]
+# Output: 5
+# Explanation: Buy on day 2 (price=1) and sell on day 5 (price=6), profit = 6-1 = 5.
 #
 # Approach:
-# - Use three pointers:
-#     p1: end of nums1’s initialized elements (m-1)
-#     p2: end of nums2 (n-1)
-#     p: end of nums1 total length (m+n-1)
-# - Compare from the end and place the larger element at position p.
-# - Continue moving backward until all nums2 elements are placed.
+# - Use a single-pass method while tracking:
+#     1. The minimum price so far (`min_price`)
+#     2. The maximum profit so far (`max_profit`)
+# - For each price:
+#     - Update `min_price` if a smaller price is found.
+#     - Calculate profit = current price - min_price.
+#     - Update `max_profit` if this profit is higher.
 #
-# Time Complexity: O(m + n)
+# Time Complexity: O(n)
 # Space Complexity: O(1)
 # -------------------------------------------------------------
 
 class Solution:
-    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None: # type: ignore
-        """
-        Do not return anything, modify nums1 in-place instead.
-        """
-        p1 = m - 1
-        p2 = n - 1
-        p = m + n - 1
+    def maxProfit(self, prices: List[int]) -> int:    # pyright: ignore[reportUndefinedVariable]
+        min_price = float('inf')
+        max_profit = 0
 
-        while p1 >= 0 and p2 >= 0:
-            if nums1[p1] < nums2[p2]:
-                nums1[p] = nums2[p2]
-                p2 -= 1
-            else:
-                nums1[p] = nums1[p1]
-                p1 -= 1
-            p -= 1
+        for price in prices:
+            if price < min_price:
+                min_price = price
+            profit = price - min_price
+            if profit > max_profit:
+                max_profit = profit
 
-        while p2 >= 0:
-            nums1[p] = nums2[p2]
-            p -= 1
-            p2 -= 1
+        return max_profit
