@@ -23,6 +23,9 @@ All solutions are written in Python and documented with approach explanations an
 | 12 | 70. Climbing Stairs | Easy | Nov 8, 2025 | climbing_stairs.py |
 | 13 | 88. Merge Sorted Array | Easy | Nov 9, 2025 | merge_sorted_array.py |
 | 14 | 344. Reverse String | Easy | Nov 10, 2025 | reverse_string.py |
+| 15 | 27. Remove Element | Easy | Nov 11, 2025 | remove_element.py |
+| 16 | 283. Move Zeroes | Easy | Nov 11, 2025 | move_zeroes.py |
+| 17 | 75. Sort Colors | Medium | Nov 11, 2025 | sort_colors.py |
 
 ---
 
@@ -49,20 +52,20 @@ Each solution file includes:
 
 ## 🗓️ Progress Plan
 
-- Solve 2 Easy problems daily until reaching 25 total  
-- Group future problems by topic:
-  - Arrays ✅ (in progress)
-  - Strings ✅ (in progress)
-  - Hashing 🔜
-  - Math 🔜  
-- Begin tackling **Medium-level problems** after mastering 25 Easy ones  
-- Add new folders by category for better structure  
+- Solve **2 Easy problems daily** until reaching 25 total  
+- Continue mastering these key patterns:
+  - ✅ Two Pointers (completed)
+  - 🔜 Sliding Window
+  - 🔜 Prefix Sum
+  - 🔜 Hashing
+- Begin tackling **Medium-level problems regularly** (1–2 per week)
+- Add new topic-based folders for structured learning  
 
 ---
 
-## 📊 Current Stats (as of Nov 10, 2025)
-- **Total Problems Solved:** 14  
-- **Current Phase:** Arrays & Strings Mastery  
+## 📊 Current Stats (as of Nov 11, 2025)
+- **Total Problems Solved:** 17  
+- **Current Phase:** Arrays & Strings Mastery (Two-Pointer ✅)  
 - **Target:** 25 Easy + 5 Medium by end of November  
 - **Languages Used:** Python 3.x  
 
