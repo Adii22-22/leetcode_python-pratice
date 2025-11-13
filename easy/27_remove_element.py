@@ -23,7 +23,7 @@
 # -------------------------------------------------------------
 
 class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
+    def removeElement(self, nums: List[int], val: int) -> int:  # type: ignore
         write = 0
         for read in range(len(nums)):
             if nums[read] != val:
