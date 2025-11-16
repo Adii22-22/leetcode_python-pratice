@@ -1,11 +1,11 @@
 # LeetCode Practice
 
 This folder contains Python solutions to various LeetCode problems solved as part of daily coding practice.  
-All solutions are written in Python and documented with approach explanations and clean, consistent structure.
+Each solution is written in Python with clean structure, clear explanations, and proper problem documentation.
 
 ---
 
-## 🧩 Current Progress
+## 🧩 Current Progress (24 Problems Solved)
 
 | #  | Problem | Difficulty | Date Solved | File |
 |----|----------|-------------|--------------|------|
@@ -26,49 +26,63 @@ All solutions are written in Python and documented with approach explanations an
 | 15 | 27. Remove Element | Easy | Nov 11, 2025 | remove_element.py |
 | 16 | 283. Move Zeroes | Easy | Nov 11, 2025 | move_zeroes.py |
 | 17 | 75. Sort Colors | Medium | Nov 11, 2025 | sort_colors.py |
+| 18 | 28. Find the Index of the First Occurrence (strStr) | Easy | Nov 12, 2025 | str_str.py |
+| 19 | 35. Search Insert Position | Easy | Nov 12, 2025 | search_insert.py |
+| 20 | 392. Is Subsequence | Easy | Nov 13, 2025 | is_subsequence.py |
+| 21 | 3. Longest Substring Without Repeating Characters | Medium | Nov 14, 2025 | longest_substring.py |
+| 22 | 20. Valid Parentheses | Easy | Nov 15, 2025 | valid_parentheses.py |
+| 23 | 155. Min Stack | Medium | Nov 16, 2025 | min_stack.py |
+| 24 | 242. Valid Anagram (Hash Map Approach) | Easy | Nov 16, 2025 | valid_anagram_hashmap.py |
 
 ---
 
 ## 📘 Overview
 
-Each solution file includes:
-- Problem title and number  
+Each solution includes:
+- Problem title & number  
 - Difficulty level  
 - Date solved  
-- Clean, well-documented Python solution  
-- Step-by-step explanation of approach and complexity  
+- Clean, well-commented Python code  
+- Explanation of logic + complexity  
 
 ---
 
 ## 🎯 Learning Focus
 
-- Strengthening algorithmic thinking and problem-solving  
-- Mastering array and string manipulation  
-- Understanding time and space complexity  
-- Building consistency in daily problem-solving  
-- Writing clear and efficient Python code  
+- Strengthening algorithmic thinking  
+- Mastering common patterns:
+  - Two Pointers  
+  - Sliding Window  
+  - Stack-based logic  
+  - Hashing  
+- Improving Python skills  
+- Solving problems consistently every day  
 
 ---
 
 ## 🗓️ Progress Plan
 
-- Solve **2 Easy problems daily** until reaching 25 total  
-- Continue mastering these key patterns:
-  - ✅ Two Pointers (completed)
-  - 🔜 Sliding Window
-  - 🔜 Prefix Sum
-  - 🔜 Hashing
-- Begin tackling **Medium-level problems regularly** (1–2 per week)
-- Add new topic-based folders for structured learning  
+- Reach **25 Easy problems** → almost done  
+- Maintain streak of **1–2 problems daily**  
+- Practice patterns in order:
+  - Two Pointers (✓ Done)
+  - Sliding Window (In progress)
+  - Hash Map / Counting (In progress)
+  - Stacks (✓ Learned)
+  - Prefix Sum (Next)
+- Start solving **medium problems more regularly**  
+- Continue organizing solutions by topic  
 
 ---
 
-## 📊 Current Stats (as of Nov 11, 2025)
-- **Total Problems Solved:** 17  
-- **Current Phase:** Arrays & Strings Mastery (Two-Pointer ✅)  
-- **Target:** 25 Easy + 5 Medium by end of November  
-- **Languages Used:** Python 3.x  
+## 📊 Current Stats (as of Nov 16, 2025)
+
+- **Total Problems Solved:** 24  
+- **Easy:** 19  
+- **Medium:** 5  
+- **Current Focus:** Sliding Window + Hash Map + Stacks  
+- **Target:** 30 problems by Nov 22  
 
 ---
 
-_This folder is part of my structured DSA learning roadmap to build problem-solving fluency and prepare for backend developer interviews._
+_This repo is part of my long-term DSA roadmap for backend development and interview preparation._
