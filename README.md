@@ -26,7 +26,7 @@ Each solution follows clean structure, clear comments, and proper problem docume
 | 15 | 27. Remove Element | Easy | Nov 11, 2025 | remove_element.py |
 | 16 | 283. Move Zeroes | Easy | Nov 11, 2025 | move_zeroes.py |
 | 17 | 75. Sort Colors | Medium | Nov 11, 2025 | sort_colors.py |
-| 18 | 28. Find First Occurrence (strStr) | Easy | Nov 12, 2025 | str_str.py |
+| 18 | 28. Find First Occurrence (strStr) | Easy | Nov 12, 2025 | firstOccurance.py |
 | 19 | 35. Search Insert Position | Easy | Nov 12, 2025 | search_insert.py |
 | 20 | 643. Maximum Average Subarray I | Easy | Nov 12, 2025 | find_max_average.py |
 | 21 | 392. Is Subsequence | Easy | Nov 13, 2025 | is_subsequence.py |
