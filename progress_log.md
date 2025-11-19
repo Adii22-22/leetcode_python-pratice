@@ -1,145 +1,157 @@
 # 🧠 Progress Log
 
-This document tracks daily and weekly progress on programming projects, LeetCode practice, and skill development as part of my learning journey.
+This document tracks daily and weekly progress on programming projects, LeetCode practice, and skill development as part of my backend development learning journey.
 
 ---
 
-## Overview
+## 🌟 Overview
 
-**Goal:** Build strong Python fundamentals, consistent problem-solving habits, and a project portfolio for backend development.
+**Goal:** Build strong Python fundamentals, master DSA patterns, complete small projects, and stay consistent with GitHub + LeetCode.
 
 **Current Focus:**
-- Daily LeetCode practice (minimum 2 problems/day)
-- Building small Python CLI projects
-- Maintaining GitHub activity and commit streak
+- Daily LeetCode (1–2 problems minimum)
+- Strengthening core DSA patterns  
+- Building real Python projects  
+- Maintaining GitHub streak
 
 ---
 
-## 🧱 Projects Progress
+# 🧱 Projects Progress
 
 | Date | Project | Description | Status |
 |------|----------|-------------|--------|
-| Sep 2025 | Shopping List Manager | CLI shopping cart app with add/remove/view items | ✅ Completed |
-| Oct 2025 | Contact Manager | Command-line CRUD app with validation using Pydantic | ✅ Completed |
-| Nov 2025 | To-Do List Manager | CLI To-Do app with CSV persistence and CRUD features | ✅ Completed |
-| Ongoing | Mini Utilities Collection | Small automation & Python utility scripts | 🔄 In Progress |
+| Sep 2025 | Shopping List Manager | CLI shopping cart (add/remove/view) | ✅ Completed |
+| Oct 2025 | Contact Manager | CRUD + validation (Pydantic) | ✅ Completed |
+| Nov 2025 | To-Do List Manager | CSV CRUD To-Do app with export | ✅ Completed |
+| Ongoing | Mini Utilities | Small helper scripts | 🔄 In Progress |
 
 ---
 
-## 💻 LeetCode Practice Progress
+# 💻 LeetCode Progress
 
-| # | Problem | Difficulty | Date Solved | File |
-|---|----------|-------------|--------------|------|
-| 1  | 1. Two Sum | Easy | Sep 2, 2025 | two_sum.py |
-| 2  | 9. Palindrome Number | Easy | Nov 2, 2025 | palindrome_number.py |
-| 3  | 242. Valid Anagram | Easy | Nov 2, 2025 | valid_anagram.py |
-| 4  | 13. Roman to Integer | Easy | Nov 3, 2025 | roman_to_integer.py |
-| 5  | 125. Valid Palindrome | Easy | Nov 3, 2025 | valid_palindrome.py |
-| 6  | 26. Remove Duplicates from Sorted Array | Easy | Nov 4, 2025 | remove_duplicates_sorted_array.py |
-| 7  | 69. Sqrt(x) | Easy | Nov 5, 2025 | sqrt_x.py |
-| 8  | 14. Longest Common Prefix | Easy | Nov 6, 2025 | longest_common_prefix.py |
-| 9  | 217. Contains Duplicate | Easy | Nov 6, 2025 | contains_duplicate.py |
-| 10 | 121. Best Time to Buy and Sell Stock | Easy | Nov 7, 2025 | best_time_to_buy_sell_stock.py |
-| 11 | 58. Length of Last Word | Easy | Nov 8, 2025 | length_of_last_word.py |
-| 12 | 70. Climbing Stairs | Easy | Nov 8, 2025 | climbing_stairs.py |
-| 13 | 344. Reverse String | Easy | Nov 10, 2025 | reverse_string.py |
-| 14 | 88. Merge Sorted Array | Easy | Nov 9, 2025 | merge_sorted_array.py |
+### ✅ **29 Problems Solved (as of Nov 19, 2025)**  
+Patterns mastered so far: **Two Pointers, Sliding Window (basic), Hash Map, Stack, Sets**  
+Current goal: **Reach 30 by Nov 22**
 
----
-
-## 📘 Overview of Entries
-
-Each problem file includes:
-- Problem title and number  
-- Difficulty level  
-- Date solved  
-- Short explanation and approach  
-- Clean, commented Python solution in LeetCode format  
-
----
-
-## 🎯 Learning Focus
-- Strengthening algorithmic thinking and logic building  
-- Practicing array, string, and hashing concepts  
-- Understanding time and space complexity  
-- Writing efficient and readable Python code  
-
----
-
-## 🗓️ Progress Plan
-- Upload 2 solved problems daily until fully updated  
-- Group future problems by topic (Arrays, Strings, Hashing, Math)  
-- Begin tackling Medium-level problems after completing 25 Easy-level ones  
+| # | Problem | Difficulty | Date | File |
+|---|----------|-------------|--------|------|
+| 1 | Two Sum | Easy | Sep 2 | two_sum.py |
+| 2 | Palindrome Number | Easy | Nov 2 | palindrome_number.py |
+| 3 | Valid Anagram (Sort) | Easy | Nov 2 | valid_anagram.py |
+| 4 | Roman to Integer | Easy | Nov 3 | roman_to_integer.py |
+| 5 | Valid Palindrome | Easy | Nov 3 | valid_palindrome.py |
+| 6 | Remove Duplicates Sorted Array | Easy | Nov 4 | remove_duplicates_sorted_array.py |
+| 7 | Sqrt(x) | Easy | Nov 5 | sqrt_x.py |
+| 8 | Longest Common Prefix | Easy | Nov 6 | longest_common_prefix.py |
+| 9 | Contains Duplicate | Easy | Nov 6 | contains_duplicate.py |
+| 10 | Best Time to Buy/Sell Stock | Easy | Nov 7 | best_time_to_buy_sell_stock.py |
+| 11 | Length of Last Word | Easy | Nov 8 | length_of_last_word.py |
+| 12 | Climbing Stairs | Easy | Nov 8 | climbing_stairs.py |
+| 13 | Merge Sorted Array | Easy | Nov 9 | merge_sorted_array.py |
+| 14 | Reverse String | Easy | Nov 10 | reverse_string.py |
+| 15 | Remove Element | Easy | Nov 11 | remove_element.py |
+| 16 | Move Zeroes | Easy | Nov 11 | move_zeroes.py |
+| 17 | Sort Colors | Medium | Nov 11 | sort_colors.py |
+| 18 | strStr | Easy | Nov 12 | firstOccurance.py |
+| 19 | Search Insert Position | Easy | Nov 12 | search_insert.py |
+| 20 | Max Average Subarray | Easy | Nov 12 | find_max_average.py |
+| 21 | Is Subsequence | Easy | Nov 13 | is_subsequence.py |
+| 22 | Longest Substring w/o Repeating | Medium | Nov 14 | longest_substring.py |
+| 23 | Valid Parentheses | Easy | Nov 15 | valid_parentheses.py |
+| 24 | Min Stack | Medium | Nov 16 | min_stack.py |
+| 25 | Valid Anagram (Hash Map) | Easy | Nov 16 | valid_anagram_hashmap.py |
+| 26 | Intersection of Arrays | Easy | Nov 18 | intersection_arrays.py |
+| 27 | Intersection of Arrays II | Easy | Nov 19 | intersection_arrays_ii.py |
+| 28 | Keep Multiplying by Two | Easy | Nov 19 | find_final_value.py |
+| 29 | Valid Sudoku | Medium | Nov 19 | valid_sudoku.py |
 
 ---
 
-## 🧩 Learning Milestones
+# 📘 Learning Summary
+
+Each solution includes:
+- Explanation  
+- Time & space complexity  
+- Clean code  
+- Comments for understanding  
+
+---
+
+# 🎯 Learning Focus
+
+### Patterns Mastered:
+- Two Pointers  
+- Basic Sliding Window  
+- Hash Map frequency counting  
+- Stacks (LIFO logic)  
+- Sets for membership & uniqueness  
+
+### Patterns in Progress:
+- Sliding Window (advanced)  
+- Binary Search  
+- Hashing tricks  
+- Matrix traversal  
+
+### Patterns Coming Next:
+- Prefix Sum  
+- Monotonic Stack  
+- BFS/DFS basics  
+
+---
+
+# 🗓️ Progress Plan
+
+### Short-term (Nov 18–25)
+- Reach **30–32 problems**
+- Finish prefix sum + binary search basics  
+- Maintain GitHub daily commits  
+- Stay consistent during university exam prep  
+
+### Medium-term (Nov–Dec)
+- 50 solved problems milestone  
+- Complete 1 small Flask/CLI project  
+- Improve speed + reduce help needed  
+- Build confidence in patterns  
+
+---
+
+# 🧩 Learning Milestones
 
 | Date | Topic | Description | Status |
 |------|--------|-------------|--------|
-| Sep 2025 | Python Fundamentals | Lists, Dictionaries, Functions, Loops, Exception Handling | ✅ Completed |
-| Oct 2025 | CLI Project Building | Structured projects with CRUD, Validation, and File Handling | ✅ Completed |
-| Nov 2025 | LeetCode Daily Practice | 14 problems completed, steady consistency | 🔄 In Progress |
-| Dec 2025 (Target) | Backend Development | Learn FastAPI and connect Python apps with APIs | 🕓 Planned |
+| Sep | Python Basics | Lists, dict, loops, functions | ✅ Done |
+| Oct | CLI Projects | CRUD apps & file handling | ✅ Done |
+| Nov | DSA Warm-up | 29 problems + 5 patterns | 🔄 In Progress |
+| Dec (Target) | Backend Dev | Learn Flask + FastAPI | 🕓 Planned |
 
 ---
 
-## 🕒 Planned Routine
+# 🕒 Routine
 
-**Daily:**
-- Solve 2 LeetCode problems  
-- Update solutions and README on GitHub  
-- Make at least one commit  
+### Daily
+- Solve 1–2 LeetCode problems  
+- Update GitHub repo  
+- Review previous problems  
 
-**Weekly:**
-- Refactor or enhance one mini-project  
-- Push all changes and update documentation  
+### Weekly
+- Refactor or improve 1 old solution  
+- Update logs + README  
 
-**Monthly:**
-- Add one new Python CLI or API-based project  
-- Summarize total problems solved and new skills learned  
-
----
-
-## 📊 Current Stats (as of Nov 10, 2025)
-
-- **LeetCode Problems Solved:** 14  
-- **Python Projects Completed:** 3  
-- **GitHub Repositories:** 1 main (Simple Mini Projects)  
-- **Active Learning Phase:** Arrays & Strings Mastery Week  
+### Monthly
+- Add 1 new Python project  
+- Summarize monthly progress  
 
 ---
 
-### 🧠 Nov 8, 2025
-- Solved **#58 Length of Last Word** and **#70 Climbing Stairs**  
-- Understood recursion + memoization (cache dictionary)  
-- Implemented CSV persistence in To-Do List project  
-- Learned file read/write handling in CSV  
+# 📊 Current Stats (Nov 19, 2025)
+- **Problems Solved:** 29  
+- **Easy:** 23  
+- **Medium:** 6  
+- **GitHub Commit Streak:** Active  
+- **Current Focus:** Sliding Window + Hash Map + Stacks  
+- **Goal:** 30 before Nov 22  
 
 ---
 
-### 🧩 Nov 9, 2025
-- Solved **#26 Remove Duplicates (redo)** and **#88 Merge Sorted Array**  
-- Focused on array indexing and two-pointer technique  
-- Understood in-place modifications conceptually  
-- Time spent: ~1.5 hours  
+Maintaining this log as a record of my **discipline, consistency, skill growth, and engineering mindset**.
 
----
-
-### 💬 Nov 10, 2025
-- Solved **#344 Reverse String** and **#125 Valid Palindrome (redo)**  
-- Learned string slicing and two-pointer traversal  
-- Practiced input cleaning and symmetry checks  
-- Improved confidence in string manipulation  
-
----
-
-## 🗒️ Notes
-- Working on consistency and daily uploads to GitHub.  
-- Aim to reach 25 Easy-level LeetCode problems before moving to Medium.  
-- Next project idea: **Basic File Organizer (Python CLI)**.  
-- Planning LinkedIn profile cleanup by January 2026.  
-
----
-
-Maintaining this log as a personal coding journal to track **discipline, growth, and technical confidence**.
