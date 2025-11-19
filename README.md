@@ -5,7 +5,7 @@ Each solution follows clean structure, clear comments, and proper problem docume
 
 ---
 
-## 🧩 Current Progress (26 Problems Solved)
+## 🧩 Current Progress (29 Problems Solved)
 
 | #  | Problem | Difficulty | Date Solved | File |
 |----|----------|-------------|--------------|------|
@@ -35,6 +35,9 @@ Each solution follows clean structure, clear comments, and proper problem docume
 | 24 | 155. Min Stack | Medium | Nov 16, 2025 | min_stack.py |
 | 25 | 242. Valid Anagram (Hash Map) | Easy | Nov 16, 2025 | valid_anagram_hashmap.py |
 | 26 | 349. Intersection of Two Arrays | Easy | Nov 18, 2025 | intersection_arrays.py |
+| 27 | 350. Intersection of Two Arrays II | Easy | Nov 19, 2025 | intersection_arrays_ii.py |
+| 28 | 2154. Keep Multiplying Found Values by Two | Easy | Nov 19, 2025 | find_final_value.py |
+| 29 | 36. Valid Sudoku | Medium | Nov 19, 2025 | valid_sudoku.py |
 
 ---
 
@@ -75,11 +78,11 @@ Each solution includes:
 
 ---
 
-## 📊 Current Stats (as of Nov 18, 2025)
+## 📊 Current Stats (as of Nov 19, 2025)
 
-- **Total Problems Solved:** 26  
-- **Easy:** 21  
-- **Medium:** 5  
+- **Total Problems Solved:** 29  
+- **Easy:** 23  
+- **Medium:** 6  
 - **Current Focus:** Sliding Window + Hash Map + Stack  
 - **Next Milestone:** 30 problems before Nov 22  
 
