@@ -9,3 +9,12 @@
 #
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+class Solution:
+    def findFinalValue(self, nums: List[int], original: int) -> int: # type: ignore
+        new_nums = set(nums)
+
+        # Keep doubling while original is found in the set
+        while original in new_nums:
+            original *= 2
+
+        return original
