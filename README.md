@@ -38,7 +38,7 @@ Each solution follows clean structure, clear comments, and proper problem docume
 | 27 | 350. Intersection of Two Arrays II | Easy | Nov 19, 2025 | intersection_arrays_ii.py |
 | 28 | 2154. Keep Multiplying Found Values by Two | Easy | Nov 19, 2025 | find_final_value.py |
 | 29 | 36. Valid Sudoku | Medium | Nov 19, 2025 | valid_sudoku.py |
-
+| 30 | 141. Linked List Cycle | Easy | Nov 20, 2025 | LinkedListCycle.py |
 ---
 
 ## 📘 Overview
