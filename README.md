@@ -39,6 +39,7 @@ Each solution follows clean structure, clear comments, and proper problem docume
 | 28 | 2154. Keep Multiplying Found Values by Two | Easy | Nov 19, 2025 | find_final_value.py |
 | 29 | 36. Valid Sudoku | Medium | Nov 19, 2025 | valid_sudoku.py |
 | 30 | 141. Linked List Cycle | Easy | Nov 20, 2025 | LinkedListCycle.py |
+| 31 | 136. Single Number | Easy | Nov 21, 2025 | singleNumber.py |
 ---
 
 ## 📘 Overview
