@@ -9,3 +9,10 @@
 #
 # So for any number, the minimum operations = min(rem, 3 - rem)
 # Sum these for all numbers.
+class Solution:
+    def minimumOperations(self, nums: List[int]) -> int: # type: ignore
+        operation = 0
+        for num in nums:
+            remainder = num % 3
+            operation += min(remainder, 3 - remainder)
+        return operation
