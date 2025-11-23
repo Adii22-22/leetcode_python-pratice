@@ -14,3 +14,16 @@
 # Time Complexity: O(n * m) 
 #   where n = number of customers, m = number of accounts per customer.
 # Space Complexity: O(n) due to storing customer wealth (or O(1) if using direct max tracking).
+class Solution: 
+    def maximumWealth(self, accounts: List[List[int]]) -> int:  # type: ignore
+        sum_list = [] 
+        for maximum in accounts: 
+            x = sum(maximum) 
+            sum_list.append(x) 
+        return max(sum_list)
+    
+    #or
+
+    class Solution:
+        def maximumWealth(self, accounts: List[List[int]]) -> int: return max(map(sum,accounts)) # type: ignore
+        
