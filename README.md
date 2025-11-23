@@ -36,13 +36,13 @@ Each solution follows clean structure, clear comments, and proper problem docume
 | 25 | 242. Valid Anagram (Hash Map) | Easy | Nov 16, 2025 | valid_anagram_hashmap.py |
 | 26 | 349. Intersection of Two Arrays | Easy | Nov 18, 2025 | intersection_arrays.py |
 | 27 | 350. Intersection of Two Arrays II | Easy | Nov 19, 2025 | intersection_arrays_ii.py |
-| 28 | 2154. Keep Multiplying Found Values by Two | Easy | Nov 19, 2025 | find_final_value.py |
+| 28 | 2154. Keep Multiplying Values by Two | Easy | Nov 19, 2025 | find_final_value.py |
 | 29 | 36. Valid Sudoku | Medium | Nov 19, 2025 | valid_sudoku.py |
 | 30 | 141. Linked List Cycle | Easy | Nov 20, 2025 | linked_list_cycle.py |
-| 31 | 136. Single Number | Easy | Nov 21, 2025 | singleNumber.py |
-| 32 | 169. Majority Element | Easy | Nov 22, 2025 | majority_element.py |
-| 33 | 3190. Maximum Operations to Convert Number to Divisible by 3 | Easy | Nov 22, 2025 | minimum_operations.py |
-| 34 | 1672. Richest Customer Wealth | Easy | Nov 23, 2025 | richest_customer_wealth.py |
+| 31 | 136. Single Number | Easy | Nov 21, 2025 | single_number.py |
+| 32 | 1672. Richest Customer Wealth | Easy | Nov 23, 2025 | maximum_wealth.py |
+| 33 | 169. Majority Element | Easy | Nov 22, 2025 | majority_element.py |
+| 34 | 1262. Greatest Sum Divisible by Three | Medium | Nov 23, 2025 | max_sum_div_three.py |
 
 ---
 
@@ -65,7 +65,7 @@ Each solution includes:
   - Sliding Window  
   - Stacks  
   - Hash Maps  
-  - Sorting + Searching patterns  
+  - Greedy & Math  
 - Writing clean and efficient Python code  
 - Maintaining daily consistency  
 
@@ -73,12 +73,13 @@ Each solution includes:
 
 ## 🗓️ Progress Plan
 
-- Reach **40 total problems** before Nov 30  
-- Keep solving **1–2 problems daily** even during exams  
+- Reach **40 problems** soon  
+- Keep solving **1–2 problems daily**  
 - Next patterns to focus:
   - Prefix Sum  
   - Binary Search  
-  - Sets + Hashing  
+  - Math + Greedy  
+  - Linked List (more medium)  
 - Increase Medium-level questions (2/week)
 
 ---
@@ -86,11 +87,11 @@ Each solution includes:
 ## 📊 Current Stats (as of Nov 23, 2025)
 
 - **Total Problems Solved:** 34  
-- **Easy:** 28  
-- **Medium:** 6  
-- **Current Focus:** Sliding Window + Hash Map + Linked List  
-- **Next Milestone:** 40 problems before Nov 30  
+- **Easy:** 27  
+- **Medium:** 7  
+- **Current Focus:** Math + Greedy + Hash Map  
+- **Next Target:** 40 problems  
 
 ---
 
-_This repository is part of my long-term DSA roadmap to improve problem-solving skills and prepare for backend development interviews._
+_This repository is part of my long-term DSA roadmap for backend development and interview preparation._
