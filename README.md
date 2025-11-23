@@ -1,63 +1,64 @@
-# LeetCode Practice
+# 🧩 LeetCode Practice
 
-This repository contains Python solutions to various LeetCode problems solved as part of my daily DSA practice.  
+This repository contains Python solutions to LeetCode problems solved as part of my daily DSA practice.  
 Each solution follows clean structure, clear comments, and proper problem documentation.
 
 ---
 
-## 🧩 Current Progress (34 Problems Solved)
+# ✅ Current Progress — 35 Problems Solved
 
-| #  | Problem | Difficulty | Date Solved | File |
-|----|----------|-------------|--------------|------|
-| 1  | 1. Two Sum | Easy | Sep 2, 2025 | two_sum.py |
-| 2  | 9. Palindrome Number | Easy | Nov 2, 2025 | palindrome_number.py |
-| 3  | 242. Valid Anagram (Sorting) | Easy | Nov 2, 2025 | valid_anagram.py |
-| 4  | 13. Roman to Integer | Easy | Nov 3, 2025 | roman_to_integer.py |
-| 5  | 125. Valid Palindrome | Easy | Nov 3, 2025 | valid_palindrome.py |
-| 6  | 26. Remove Duplicates from Sorted Array | Easy | Nov 4, 2025 | remove_duplicates_sorted_array.py |
-| 7  | 69. Sqrt(x) | Easy | Nov 5, 2025 | sqrt_x.py |
-| 8  | 14. Longest Common Prefix | Easy | Nov 6, 2025 | longest_common_prefix.py |
-| 9  | 217. Contains Duplicate | Easy | Nov 6, 2025 | contains_duplicate.py |
-| 10 | 121. Best Time to Buy and Sell Stock | Easy | Nov 7, 2025 | best_time_to_buy_sell_stock.py |
-| 11 | 58. Length of Last Word | Easy | Nov 8, 2025 | length_of_last_word.py |
-| 12 | 70. Climbing Stairs | Easy | Nov 8, 2025 | climbing_stairs.py |
-| 13 | 88. Merge Sorted Array | Easy | Nov 9, 2025 | merge_sorted_array.py |
-| 14 | 344. Reverse String | Easy | Nov 10, 2025 | reverse_string.py |
-| 15 | 27. Remove Element | Easy | Nov 11, 2025 | remove_element.py |
-| 16 | 283. Move Zeroes | Easy | Nov 11, 2025 | move_zeroes.py |
-| 17 | 75. Sort Colors | Medium | Nov 11, 2025 | sort_colors.py |
-| 18 | 28. Find First Occurrence (strStr) | Easy | Nov 12, 2025 | firstOccurance.py |
-| 19 | 35. Search Insert Position | Easy | Nov 12, 2025 | search_insert.py |
-| 20 | 643. Maximum Average Subarray I | Easy | Nov 12, 2025 | find_max_average.py |
-| 21 | 392. Is Subsequence | Easy | Nov 13, 2025 | is_subsequence.py |
-| 22 | 3. Longest Substring Without Repeating Characters | Medium | Nov 14, 2025 | longest_substring.py |
-| 23 | 20. Valid Parentheses | Easy | Nov 15, 2025 | valid_parentheses.py |
-| 24 | 155. Min Stack | Medium | Nov 16, 2025 | min_stack.py |
-| 25 | 242. Valid Anagram (Hash Map) | Easy | Nov 16, 2025 | valid_anagram_hashmap.py |
-| 26 | 349. Intersection of Two Arrays | Easy | Nov 18, 2025 | intersection_arrays.py |
-| 27 | 350. Intersection of Two Arrays II | Easy | Nov 19, 2025 | intersection_arrays_ii.py |
-| 28 | 2154. Keep Multiplying Values by Two | Easy | Nov 19, 2025 | find_final_value.py |
-| 29 | 36. Valid Sudoku | Medium | Nov 19, 2025 | valid_sudoku.py |
-| 30 | 141. Linked List Cycle | Easy | Nov 20, 2025 | linked_list_cycle.py |
-| 31 | 136. Single Number | Easy | Nov 21, 2025 | single_number.py |
-| 32 | 1672. Richest Customer Wealth | Easy | Nov 23, 2025 | maximum_wealth.py |
-| 33 | 169. Majority Element | Easy | Nov 22, 2025 | majority_element.py |
-| 34 | 1262. Greatest Sum Divisible by Three | Medium | Nov 23, 2025 | max_sum_div_three.py |
+| #  | Problem | Difficulty | Date Solved |
+|----|----------|-------------|--------------|
+| 1  | 1. Two Sum | Easy | Sep 2, 2025 |
+| 2  | 9. Palindrome Number | Easy | Nov 2, 2025 |
+| 3  | 242. Valid Anagram (Sorting) | Easy | Nov 2, 2025 |
+| 4  | 13. Roman to Integer | Easy | Nov 3, 2025 |
+| 5  | 125. Valid Palindrome | Easy | Nov 3, 2025 |
+| 6  | 26. Remove Duplicates from Sorted Array | Easy | Nov 4, 2025 |
+| 7  | 69. Sqrt(x) | Easy | Nov 5, 2025 |
+| 8  | 14. Longest Common Prefix | Easy | Nov 6, 2025 |
+| 9  | 217. Contains Duplicate | Easy | Nov 6, 2025 |
+|10  | 121. Best Time to Buy and Sell Stock | Easy | Nov 7, 2025 |
+|11  | 58. Length of Last Word | Easy | Nov 8, 2025 |
+|12  | 70. Climbing Stairs | Easy | Nov 8, 2025 |
+|13  | 88. Merge Sorted Array | Easy | Nov 9, 2025 |
+|14  | 344. Reverse String | Easy | Nov 10, 2025 |
+|15  | 27. Remove Element | Easy | Nov 11, 2025 |
+|16  | 283. Move Zeroes | Easy | Nov 11, 2025 |
+|17  | 75. Sort Colors | Medium | Nov 11, 2025 |
+|18  | 28. Find First Occurrence (strStr) | Easy | Nov 12, 2025 |
+|19  | 35. Search Insert Position | Easy | Nov 12, 2025 |
+|20  | 643. Maximum Average Subarray I | Easy | Nov 12, 2025 |
+|21  | 392. Is Subsequence | Easy | Nov 13, 2025 |
+|22  | 3. Longest Substring Without Repeating Characters | Medium | Nov 14, 2025 |
+|23  | 20. Valid Parentheses | Easy | Nov 15, 2025 |
+|24  | 155. Min Stack | Medium | Nov 16, 2025 |
+|25  | 242. Valid Anagram (Hash Map) | Easy | Nov 16, 2025 |
+|26  | 349. Intersection of Two Arrays | Easy | Nov 18, 2025 |
+|27  | 350. Intersection of Two Arrays II | Easy | Nov 19, 2025 |
+|28  | 2154. Keep Multiplying Found Values by Two | Easy | Nov 19, 2025 |
+|29  | 36. Valid Sudoku | Medium | Nov 19, 2025 |
+|30  | 141. Linked List Cycle | Easy | Nov 20, 2025 |
+|31  | 136. Single Number | Easy | Nov 21, 2025 |
+|32  | 169. Majority Element | Easy | Nov 22, 2025 |
+|33  | 3190. Minimum Operations to Make All Elements Divisible by Three | Easy | Nov 22, 2025 |
+|34  | 1672. Richest Customer Wealth | Easy | Nov 23, 2025 |
+|35  | 1262. Greatest Sum Divisible by Three | Medium | Nov 23, 2025 |
 
 ---
 
-## 📘 Overview
+# 📘 Overview
 
 Each solution includes:
-- Problem title & number  
-- Difficulty  
+- Problem number & title  
+- Difficulty level  
 - Date solved  
-- Clean, well-commented Python code  
+- Clean and commented Python code  
 - Explanation of logic and complexity  
 
 ---
 
-## 🎯 Learning Focus
+# 🎯 Learning Focus
 
 - Strengthening algorithmic thinking  
 - Improving mastery of:
@@ -65,33 +66,36 @@ Each solution includes:
   - Sliding Window  
   - Stacks  
   - Hash Maps  
-  - Greedy & Math  
+  - Sorting & Searching  
+  - Linked Lists  
+  - Greedy Algorithms  
 - Writing clean and efficient Python code  
 - Maintaining daily consistency  
 
 ---
 
-## 🗓️ Progress Plan
+# 🗓 Progress Plan
 
-- Reach **40 problems** soon  
-- Keep solving **1–2 problems daily**  
-- Next patterns to focus:
+- Reach **50 problems** by December  
+- Solve **1–2 problems daily**  
+- Increase Medium problems (2–3 per week)  
+- Next patterns to cover:
   - Prefix Sum  
   - Binary Search  
-  - Math + Greedy  
-  - Linked List (more medium)  
-- Increase Medium-level questions (2/week)
+  - Recursion  
+  - Math / Bit Manipulation  
+- Begin learning FastAPI after exams  
 
 ---
 
-## 📊 Current Stats (as of Nov 23, 2025)
+# 📊 Stats (as of Nov 23, 2025)
 
-- **Total Problems Solved:** 34  
-- **Easy:** 27  
-- **Medium:** 7  
-- **Current Focus:** Math + Greedy + Hash Map  
-- **Next Target:** 40 problems  
+- **Total Problems Solved:** 35  
+- **Easy:** 29  
+- **Medium:** 6  
+- **Current Focus:** Hash Map + Sliding Window + Linked List  
+- **Next Milestone:** 40 problems  
 
 ---
 
-_This repository is part of my long-term DSA roadmap for backend development and interview preparation._
+_This repository is part of my long-term DSA roadmap to improve problem-solving skills and prepare for backend development interviews._
