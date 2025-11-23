@@ -5,7 +5,7 @@ Each solution follows clean structure, clear comments, and proper problem docume
 
 ---
 
-## 🧩 Current Progress (33 Problems Solved)
+## 🧩 Current Progress (34 Problems Solved)
 
 | #  | Problem | Difficulty | Date Solved | File |
 |----|----------|-------------|--------------|------|
@@ -40,8 +40,9 @@ Each solution follows clean structure, clear comments, and proper problem docume
 | 29 | 36. Valid Sudoku | Medium | Nov 19, 2025 | valid_sudoku.py |
 | 30 | 141. Linked List Cycle | Easy | Nov 20, 2025 | linked_list_cycle.py |
 | 31 | 136. Single Number | Easy | Nov 21, 2025 | singleNumber.py |
-| 32 | 169. Majority Element (Boyer-Moore) | Easy | Nov 22, 2025 | majority_element.py |
-| 33 | 3190. Minimum Operations to Make Array Values Divisible by 3 | Easy | Nov 22, 2025 | minimum_operations_divisible_by_3.py |
+| 32 | 169. Majority Element | Easy | Nov 22, 2025 | majority_element.py |
+| 33 | 3190. Maximum Operations to Convert Number to Divisible by 3 | Easy | Nov 22, 2025 | minimum_operations.py |
+| 34 | 1672. Richest Customer Wealth | Easy | Nov 23, 2025 | richest_customer_wealth.py |
 
 ---
 
@@ -59,39 +60,37 @@ Each solution includes:
 ## 🎯 Learning Focus
 
 - Strengthening algorithmic thinking  
-- Improving mastery in:
+- Improving mastery of:
   - Two Pointers  
   - Sliding Window  
   - Stacks  
   - Hash Maps  
-  - Searching + Sorting  
-- Writing efficient Python code  
-- Daily consistency  
+  - Sorting + Searching patterns  
+- Writing clean and efficient Python code  
+- Maintaining daily consistency  
 
 ---
 
 ## 🗓️ Progress Plan
 
-- Reach **40 problems** by Nov 30  
-- Continue 1–2 problems/day (even during exams)  
-- Next patterns:
+- Reach **40 total problems** before Nov 30  
+- Keep solving **1–2 problems daily** even during exams  
+- Next patterns to focus:
   - Prefix Sum  
   - Binary Search  
-  - Greedy Techniques  
-  - Advanced Hash Maps  
-- Aim to add more Medium problems weekly  
+  - Sets + Hashing  
+- Increase Medium-level questions (2/week)
 
 ---
 
-## 📊 Current Stats (as of Nov 22, 2025)
+## 📊 Current Stats (as of Nov 23, 2025)
 
-- **Total Problems Solved:** 33  
-- **Easy:** 27  
+- **Total Problems Solved:** 34  
+- **Easy:** 28  
 - **Medium:** 6  
-- **Current Focus:** Sliding Window • Hash Map • Stack  
-- **Next Milestone:** 40 problems by end of November  
+- **Current Focus:** Sliding Window + Hash Map + Linked List  
+- **Next Milestone:** 40 problems before Nov 30  
 
 ---
 
-_This repository is part of my long-term DSA roadmap to prepare for backend development interviews._
-
+_This repository is part of my long-term DSA roadmap to improve problem-solving skills and prepare for backend development interviews._
