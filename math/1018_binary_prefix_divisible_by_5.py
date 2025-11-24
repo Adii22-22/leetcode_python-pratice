@@ -14,3 +14,11 @@ Approach:
 Time Complexity: O(n)
 Space Complexity: O(n)
 """
+class Solution:
+    def prefixesDivBy5(self, nums: List[int]) -> List[bool]: # type: ignore
+        result = []
+        rem = 0
+        for bit in nums:
+            rem = (rem * 2 + bit) % 5
+            result.append(rem == 0)
+        return result
