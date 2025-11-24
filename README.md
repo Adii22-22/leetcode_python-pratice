@@ -1,11 +1,11 @@
-# 🧩 LeetCode Practice
+# LeetCode Practice
 
-This repository contains Python solutions to LeetCode problems solved as part of my daily DSA practice.  
-Each solution follows clean structure, clear comments, and proper problem documentation.
+This repository contains Python solutions to various LeetCode problems solved as part of my daily DSA practice.  
+Each solution follows a clean structure, clear comments, and proper problem documentation.
 
 ---
 
-# ✅ Current Progress — 35 Problems Solved
+## 🧩 Current Progress (37 Problems Solved)
 
 | #  | Problem | Difficulty | Date Solved |
 |----|----------|-------------|--------------|
@@ -25,40 +25,42 @@ Each solution follows clean structure, clear comments, and proper problem docume
 |14  | 344. Reverse String | Easy | Nov 10, 2025 |
 |15  | 27. Remove Element | Easy | Nov 11, 2025 |
 |16  | 283. Move Zeroes | Easy | Nov 11, 2025 |
-|17  | 75. Sort Colors | Medium | Nov 11, 2025 |
+|17  | 75. Sort Colors | **Medium** | Nov 11, 2025 |
 |18  | 28. Find First Occurrence (strStr) | Easy | Nov 12, 2025 |
 |19  | 35. Search Insert Position | Easy | Nov 12, 2025 |
 |20  | 643. Maximum Average Subarray I | Easy | Nov 12, 2025 |
 |21  | 392. Is Subsequence | Easy | Nov 13, 2025 |
-|22  | 3. Longest Substring Without Repeating Characters | Medium | Nov 14, 2025 |
+|22  | 3. Longest Substring Without Repeating Characters | **Medium** | Nov 14, 2025 |
 |23  | 20. Valid Parentheses | Easy | Nov 15, 2025 |
-|24  | 155. Min Stack | Medium | Nov 16, 2025 |
+|24  | 155. Min Stack | **Medium** | Nov 16, 2025 |
 |25  | 242. Valid Anagram (Hash Map) | Easy | Nov 16, 2025 |
 |26  | 349. Intersection of Two Arrays | Easy | Nov 18, 2025 |
 |27  | 350. Intersection of Two Arrays II | Easy | Nov 19, 2025 |
 |28  | 2154. Keep Multiplying Found Values by Two | Easy | Nov 19, 2025 |
-|29  | 36. Valid Sudoku | Medium | Nov 19, 2025 |
+|29  | 36. Valid Sudoku | **Medium** | Nov 19, 2025 |
 |30  | 141. Linked List Cycle | Easy | Nov 20, 2025 |
 |31  | 136. Single Number | Easy | Nov 21, 2025 |
 |32  | 169. Majority Element | Easy | Nov 22, 2025 |
-|33  | 3190. Minimum Operations to Make All Elements Divisible by Three | Easy | Nov 22, 2025 |
-|34  | 1672. Richest Customer Wealth | Easy | Nov 23, 2025 |
-|35  | 1262. Greatest Sum Divisible by Three | Medium | Nov 23, 2025 |
+|33  | 3190. Minimum Operations to Make All Elements Divisible by 3 | Easy | Nov 22, 2025 |
+|34  | 1262. Greatest Sum Divisible by Three | **Medium** | Nov 23, 2025 |
+|35  | 1672. Richest Customer Wealth | Easy | Nov 23, 2025 |
+|36  | 412. Fizz Buzz | Easy | Nov 24, 2025 |
+|37  | 1018. Binary Prefix Divisible By 5 | Easy | Nov 24, 2025 |
 
 ---
 
-# 📘 Overview
+## 📘 Overview
 
 Each solution includes:
 - Problem number & title  
 - Difficulty level  
 - Date solved  
 - Clean and commented Python code  
-- Explanation of logic and complexity  
+- Short explanation of the approach and complexity  
 
 ---
 
-# 🎯 Learning Focus
+## 🎯 Learning Focus
 
 - Strengthening algorithmic thinking  
 - Improving mastery of:
@@ -67,35 +69,30 @@ Each solution includes:
   - Stacks  
   - Hash Maps  
   - Sorting & Searching  
+  - Prefix Sum / Bit Math  
   - Linked Lists  
-  - Greedy Algorithms  
-- Writing clean and efficient Python code  
+- Writing readable, efficient Python code  
 - Maintaining daily consistency  
 
 ---
 
-# 🗓 Progress Plan
+## 🗓 Progress Plan
 
-- Reach **50 problems** by December  
-- Solve **1–2 problems daily**  
-- Increase Medium problems (2–3 per week)  
-- Next patterns to cover:
-  - Prefix Sum  
-  - Binary Search  
-  - Recursion  
-  - Math / Bit Manipulation  
-- Begin learning FastAPI after exams  
+- Reach **40 problems** soon  
+- Solve **1 problem daily** (or 1 + 1 small task on exam days)  
+- Increase Medium-level practice (2–3 per week)  
+- Next focus topics:
+  - Prefix Sum, Binary Search, Bit Manipulation, Recursion  
+- Start FastAPI after exams  
 
 ---
 
-# 📊 Stats (as of Nov 23, 2025)
+## 📊 Stats (as of Nov 24, 2025)
 
-- **Total Problems Solved:** 35  
-- **Easy:** 29  
+- **Total Problems Solved:** 37  
+- **Easy:** 31  
 - **Medium:** 6  
-- **Current Focus:** Hash Map + Sliding Window + Linked List  
-- **Next Milestone:** 40 problems  
+- **Current Focus:** Bit Manipulation + Sliding Window + Hash Map  
+- **Next Milestone:** 40 problems
 
 ---
-
-_This repository is part of my long-term DSA roadmap to improve problem-solving skills and prepare for backend development interviews._
