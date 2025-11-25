@@ -47,6 +47,8 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |36  | 412. Fizz Buzz | Easy | Nov 24, 2025 |
 |37  | 1018. Binary Prefix Divisible By 5 | Easy | Nov 24, 2025 |
 |38  | 171. Excel Sheet Column Number | Easy | Nov 25, 2025 |
+|39 | 1015. Smallest Integer Divisible by K | Medium | Nov 25, 2025 |
+
 
 ---
 
@@ -95,9 +97,9 @@ Each solution includes:
 
 ## 📊 Stats (as of Nov 25, 2025)
 
-- **Total Problems Solved:** 38  
+- **Total Problems Solved:** 39  
 - **Easy:** 32  
-- **Medium:** 6  
+- **Medium:** 7  
 - **Current Focus:** Math + Bit Manipulation + Sliding Window  
 - **Next Milestone:** 40 problems
 
