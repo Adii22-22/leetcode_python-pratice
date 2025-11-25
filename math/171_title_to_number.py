@@ -19,3 +19,10 @@
 #
 # Time Complexity: O(n)
 # Space Complexity: O(1)
+class Solution:
+    def titleToNumber(self, columnTitle: str) -> int:
+        num = 0
+        for char in columnTitle:
+            letter_value = ord(char) - ord('A') + 1
+            num = num * 26 + letter_value
+        return num
