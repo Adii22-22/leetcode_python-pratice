@@ -17,3 +17,9 @@
 # Time Complexity: O(n)
 # Space Complexity: O(1)
 # --------------------------------------------------------------
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int: # type: ignore
+        n = len(nums)
+        result = n * (n+1)//2
+        return result - sum(nums)
+        
