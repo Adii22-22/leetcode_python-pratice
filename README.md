@@ -5,7 +5,7 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 
 ---
 
-## 🧩 Current Progress (38 Problems Solved)
+## 🧩 Current Progress (41 Problems Solved)
 
 | #  | Problem | Difficulty | Date Solved |
 |----|----------|-------------|--------------|
@@ -46,16 +46,17 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |35  | 1672. Richest Customer Wealth | Easy | Nov 23, 2025 |
 |36  | 412. Fizz Buzz | Easy | Nov 24, 2025 |
 |37  | 1018. Binary Prefix Divisible By 5 | Easy | Nov 24, 2025 |
-|38  | 171. Excel Sheet Column Number | Easy | Nov 25, 2025 |
-|39 | 1015. Smallest Integer Divisible by K | Medium | Nov 25, 2025 |
-
+|38  | 1019. Smallest Repunit Divisible by K | **Medium** | Nov 25, 2025 |
+|39  | 66. Plus One | Easy | Nov 26, 2025 |
+|40  | 268. Missing Number | Easy | Nov 27, 2025 |
+|41  | (empty slot for tomorrow) | — | — |
 
 ---
 
 ## 📘 Overview
 
 Each solution includes:
-- Problem number & title  
+- Problem number & title
 - Difficulty level  
 - Date solved  
 - Clean and commented Python code  
@@ -72,35 +73,32 @@ Each solution includes:
   - Stacks  
   - Hash Maps  
   - Sorting & Searching  
-  - Prefix Sum  
-  - Bit Manipulation  
+  - Math / Bit Manipulation  
   - Linked Lists  
-  - Number System / Math problems  
-- Writing clean and efficient Python code  
+- Writing readable, efficient Python code  
 - Maintaining daily consistency  
 
 ---
 
 ## 🗓 Progress Plan
 
-- Reach **40 problems** soon  
-- Solve **1 problem daily** (or more on weekends)  
+- Reach **45+ problems** soon  
+- Solve **1 problem daily** even during exams  
 - Increase Medium-level practice (2–3 per week)  
 - Next focus topics:
-  - Prefix Sum  
-  - Binary Search  
-  - Recursion + Backtracking  
-  - Bitwise problems  
-- Start FastAPI after university exams  
+  - Prefix Sum, Binary Search, Bit Manipulation, Recursion  
+- Start FastAPI after exams  
 
 ---
 
-## 📊 Stats (as of Nov 25, 2025)
+## 📊 Stats (as of Nov 27, 2025)
 
-- **Total Problems Solved:** 39  
-- **Easy:** 32  
+- **Total Problems Solved:** 41  
+- **Easy:** 34  
 - **Medium:** 7  
-- **Current Focus:** Math + Bit Manipulation + Sliding Window  
-- **Next Milestone:** 40 problems
+- **Current Focus:** Math + Bit + Sliding Window  
+- **Next Milestone:** 45 problems
 
 ---
+
+_This repository is part of my long-term DSA roadmap to build strong problem-solving skills and prepare for backend development interviews._
