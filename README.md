@@ -1,6 +1,6 @@
 # LeetCode Practice
 
-This repository contains Python solutions to various LeetCode problems solved as part of my daily DSA practice.  
+This repository contains Python solutions to various LeetCode problems solved as part of my daily DSA practice.
 Each solution follows a clean structure, clear comments, and proper problem documentation.
 
 ---
@@ -26,7 +26,7 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |15  | 27. Remove Element | Easy | Nov 11, 2025 |
 |16  | 283. Move Zeroes | Easy | Nov 11, 2025 |
 |17  | 75. Sort Colors | **Medium** | Nov 11, 2025 |
-|18  | 28. Find First Occurrence (strStr) | Easy | Nov 12, 2025 |
+|18  | 28. Find the Index of the First Occurrence in a String | Easy | Nov 12, 2025 |
 |19  | 35. Search Insert Position | Easy | Nov 12, 2025 |
 |20  | 643. Maximum Average Subarray I | Easy | Nov 12, 2025 |
 |21  | 392. Is Subsequence | Easy | Nov 13, 2025 |
@@ -46,59 +46,88 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |35  | 1672. Richest Customer Wealth | Easy | Nov 23, 2025 |
 |36  | 412. Fizz Buzz | Easy | Nov 24, 2025 |
 |37  | 1018. Binary Prefix Divisible By 5 | Easy | Nov 24, 2025 |
-|38  | 1019. Smallest Repunit Divisible by K | **Medium** | Nov 25, 2025 |
-|39  | 66. Plus One | Easy | Nov 26, 2025 |
-|40  | 268. Missing Number | Easy | Nov 27, 2025 |
-| 41 | 118. Pascal's Triangle | Easy | Nov 29, 2025 |
-
+|38  | 171. Excel Sheet Column Number | Easy | Nov 25, 2025 |
+|39  | 1015. Smallest Integer Divisible by K | **Medium** | Nov 25, 2025 |
+|40  | 66. Plus One | Easy | Nov 26, 2025 |
+|41  | 268. Missing Number | Easy | Nov 27, 2025 |
+|42  | 118. Pascal's Triangle | Easy | Nov 29, 2025 |
 
 ---
 
 ## 📘 Overview
 
 Each solution includes:
-- Problem number & title
+- Problem number & title  
 - Difficulty level  
 - Date solved  
 - Clean and commented Python code  
-- Short explanation of the approach and complexity  
+- Short explanation of the logic and complexity  
+
+The folder structure is organized by problem pattern:
+- `arrays/`
+- `strings/`
+- `two_pointers/`
+- `sliding_window/`
+- `stack/`
+- `hashing/`
+- `math/`
+- `bit_manipulation/`
+- `binary_search/`
 
 ---
 
 ## 🎯 Learning Focus
 
-- Strengthening algorithmic thinking  
-- Improving mastery of:
+Current focus areas:
+- Building strong algorithmic thinking  
+- Understanding common patterns:
   - Two Pointers  
   - Sliding Window  
-  - Stacks  
   - Hash Maps  
   - Sorting & Searching  
-  - Math / Bit Manipulation  
+  - Stacks  
+  - Math & Bit Manipulation  
   - Linked Lists  
-- Writing readable, efficient Python code  
-- Maintaining daily consistency  
+- Writing clean, readable, efficient Python code  
+- Maintaining daily consistency during exam season  
+
+Core objectives:
+- Improve speed on **Easy** problems  
+- Build confidence for **Medium** problems  
+- Learn to recognize patterns quickly  
 
 ---
 
 ## 🗓 Progress Plan
 
-- Reach **45+ problems** soon  
-- Solve **1 problem daily** even during exams  
-- Increase Medium-level practice (2–3 per week)  
-- Next focus topics:
-  - Prefix Sum, Binary Search, Bit Manipulation, Recursion  
-- Start FastAPI after exams  
+Short-term goals:
+- Reach **45+ solved problems**  
+- Continue **1 problem daily** even during exams  
+- Add more **Medium** problems (2–3 per week)  
+
+Upcoming focus topics:
+- Prefix Sum  
+- Binary Search  
+- Recursion  
+- Bit Manipulation  
+- Sliding Window (intermediate level)  
+
+Long-term:
+- Start **FastAPI backend projects** after exams  
+- Learn SQL + Docker basics  
+- Build strong resume & GitHub profile  
+- Become job-ready by Jan–Feb 2026  
 
 ---
 
-## 📊 Stats (as of Nov 27, 2025)
+## 📊 Stats (as of Nov 29, 2025)
 
 - **Total Problems Solved:** 41  
 - **Easy:** 34  
 - **Medium:** 7  
-- **Current Focus:** Math + Bit + Sliding Window  
-- **Next Milestone:** 45 problems
+- **Hard:** 0 (not needed yet)  
+- **Current Focus:** Math + Bit Manipulation + Sliding Window  
+- **Next Milestone:** 45 problems  
 
 ---
 
