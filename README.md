@@ -49,7 +49,8 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |38  | 1019. Smallest Repunit Divisible by K | **Medium** | Nov 25, 2025 |
 |39  | 66. Plus One | Easy | Nov 26, 2025 |
 |40  | 268. Missing Number | Easy | Nov 27, 2025 |
-|41  | (empty slot for tomorrow) | — | — |
+| 41 | 118. Pascal's Triangle | Easy | Nov 29, 2025 |
+
 
 ---
 
