@@ -5,7 +5,7 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 
 ---
 
-## 🧩 Current Progress (41 Problems Solved)
+## 🧩 Current Progress (45 Problems Solved)
 
 | #  | Problem | Difficulty | Date Solved |
 |----|----------|-------------|--------------|
@@ -50,7 +50,10 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |39  | 1015. Smallest Integer Divisible by K | **Medium** | Nov 25, 2025 |
 |40  | 66. Plus One | Easy | Nov 26, 2025 |
 |41  | 268. Missing Number | Easy | Nov 27, 2025 |
-|42  | 118. Pascal's Triangle | Easy | Nov 29, 2025 |
+|42  | 414. Third Maximum Number | Easy | Nov 27, 2025 |
+|43  | 118. Pascal's Triangle | Easy | Nov 29, 2025 |
+|44  | 258. Add Digits | Easy | Nov 30, 2025 |
+|45  | 374. Guess Number Higher or Lower | Easy | Dec 1, 2025 |
 
 ---
 
@@ -89,7 +92,7 @@ Current focus areas:
   - Math & Bit Manipulation  
   - Linked Lists  
 - Writing clean, readable, efficient Python code  
-- Maintaining daily consistency during exam season  
+- Maintaining daily consistency  
 
 Core objectives:
 - Improve speed on **Easy** problems  
@@ -101,8 +104,8 @@ Core objectives:
 ## 🗓 Progress Plan
 
 Short-term goals:
-- Reach **45+ solved problems**  
-- Continue **1 problem daily** even during exams  
+- Reach **50+ solved problems**  
+- Continue **1 problem daily**  
 - Add more **Medium** problems (2–3 per week)  
 
 Upcoming focus topics:
@@ -120,14 +123,14 @@ Long-term:
 
 ---
 
-## 📊 Stats (as of Nov 29, 2025)
+## 📊 Stats (as of Dec 1, 2025)
 
-- **Total Problems Solved:** 41  
-- **Easy:** 34  
+- **Total Problems Solved:** 45  
+- **Easy:** 38  
 - **Medium:** 7  
-- **Hard:** 0 (not needed yet)  
+- **Hard:** 0  
 - **Current Focus:** Math + Bit Manipulation + Sliding Window  
-- **Next Milestone:** 45 problems  
+- **Next Milestone:** 50 problems  
 
 ---
 
