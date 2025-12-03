@@ -5,7 +5,7 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 
 ---
 
-## 🧩 Current Progress (46 Problems Solved)
+## 🧩 Current Progress (47 Problems Solved)
 
 | #  | Problem | Difficulty | Date Solved |
 |----|----------|-------------|--------------|
@@ -54,8 +54,8 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |43  | 118. Pascal's Triangle | Easy | Nov 29, 2025 |
 |44  | 258. Add Digits | Easy | Nov 30, 2025 |
 |45  | 374. Guess Number Higher or Lower | Easy | Dec 1, 2025 |
-|46 | 326. Power of Three | Easy | Dec 2, 2025 |
-
+|46  | 326. Power of Three | Easy | Dec 2, 2025 |
+|47  | 1108. Defanging an IP Address | Easy | Dec 4, 2025 |
 
 ---
 
@@ -125,10 +125,10 @@ Long-term:
 
 ---
 
-## 📊 Stats (as of Dec 2, 2025)
+## 📊 Stats (as of Dec 4, 2025)
 
-- **Total Problems Solved:** 46  
-- **Easy:** 39  
+- **Total Problems Solved:** 47  
+- **Easy:** 40  
 - **Medium:** 7  
 - **Hard:** 0  
 - **Current Focus:** Math + Bit Manipulation + Sliding Window  
