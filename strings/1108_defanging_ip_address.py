@@ -7,3 +7,7 @@
 #   Python's replace() creates a new string since strings are immutable.
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+class Solution:
+    def defangIPaddr(self, address: str) -> str:
+        new = address.replace(".","[.]")
+        return new
