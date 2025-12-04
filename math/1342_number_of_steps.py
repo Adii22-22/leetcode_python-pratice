@@ -7,3 +7,17 @@
 #   This directly follows the rules given in the problem.
 # Time Complexity: O(log n)
 # Space Complexity: O(1)
+class Solution:
+    def numberOfSteps(self, num: int) -> int:
+        count = 0
+        while num > 0:
+            if num % 2 == 0:
+                num = num // 2
+                count +=1
+            elif num % 2 == 1:
+                num = (num - 1) 
+                count +=1
+
+        return count
+        
+        
