@@ -55,7 +55,9 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |44  | 258. Add Digits | Easy | Nov 30, 2025 |
 |45  | 374. Guess Number Higher or Lower | Easy | Dec 1, 2025 |
 |46  | 326. Power of Three | Easy | Dec 2, 2025 |
-|47  | 1108. Defanging an IP Address | Easy | Dec 4, 2025 |
+|47  | 1108. Defanging an IP Address | Easy | Dec 3, 2025 |
+|48  | 1342. Number of Steps to Reduce a Number to Zero | Easy | Dec 4, 2025 |
+
 
 ---
 
