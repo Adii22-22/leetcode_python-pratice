@@ -129,8 +129,8 @@ Long-term:
 
 ## 📊 Stats (as of Dec 4, 2025)
 
-- **Total Problems Solved:** 47  
-- **Easy:** 40  
+- **Total Problems Solved:** 48  
+- **Easy:** 41  
 - **Medium:** 7  
 - **Hard:** 0  
 - **Current Focus:** Math + Bit Manipulation + Sliding Window  
