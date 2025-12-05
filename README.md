@@ -57,6 +57,8 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |46  | 326. Power of Three | Easy | Dec 2, 2025 |
 |47  | 1108. Defanging an IP Address | Easy | Dec 3, 2025 |
 |48  | 1342. Number of Steps to Reduce a Number to Zero | Easy | Dec 4, 2025 |
+|49  | 1523. Count Odd Numbers in an Interval Range | Easy | Dec 5, 2025 |
+
 
 
 ---
