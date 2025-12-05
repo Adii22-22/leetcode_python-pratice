@@ -8,3 +8,6 @@
 #   This avoids looping and gives a constant-time solution.
 # Time Complexity: O(1)
 # Space Complexity: O(1)
+class Solution:
+    def countOdds(self, low: int, high: int) -> int:
+        return (high+1)// 2 - (low//2)
