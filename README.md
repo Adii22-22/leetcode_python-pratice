@@ -5,7 +5,7 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 
 ---
 
-## 🧩 Current Progress (47 Problems Solved)
+## 🧩 Current Progress (50 Problems Solved)
 
 | #  | Problem | Difficulty | Date Solved |
 |----|----------|-------------|--------------|
@@ -58,8 +58,7 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |47  | 1108. Defanging an IP Address | Easy | Dec 3, 2025 |
 |48  | 1342. Number of Steps to Reduce a Number to Zero | Easy | Dec 4, 2025 |
 |49  | 1523. Count Odd Numbers in an Interval Range | Easy | Dec 5, 2025 |
-
-
+|50  | 1480. Running Sum of 1D Array | Easy | Dec 6, 2025 |
 
 ---
 
@@ -110,7 +109,7 @@ Core objectives:
 ## 🗓 Progress Plan
 
 Short-term goals:
-- Reach **50+ solved problems**  
+- Reach **55 solved problems**  
 - Continue **1 problem daily**  
 - Add more **Medium** problems (2–3 per week)  
 
@@ -129,14 +128,14 @@ Long-term:
 
 ---
 
-## 📊 Stats (as of Dec 5, 2025)
+## 📊 Stats (as of Dec 6, 2025)
 
-- **Total Problems Solved:** 49 
-- **Easy:** 42  
+- **Total Problems Solved:** 50  
+- **Easy:** 43  
 - **Medium:** 7  
 - **Hard:** 0  
-- **Current Focus:** Math + Bit Manipulation + Sliding Window  
-- **Next Milestone:** 50 problems  
+- **Current Focus:** Prefix Sum + Math + Sliding Window  
+- **Next Milestone:** 55 problems  
 
 ---
 
