@@ -7,3 +7,11 @@
 #   This is a classic prefix sum calculation completed in a single pass.
 # Time Complexity: O(n)
 # Space Complexity: O(1) extra (excluding the output list)
+class Solution: 
+    def runningSum(self, nums: List[int]) -> List[int]:  # type: ignore
+        prefix = [] 
+        current_sum = 0 
+        for num in nums: 
+            current_sum += num 
+            prefix.append(current_sum) 
+        return prefix
