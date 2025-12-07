@@ -5,7 +5,7 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 
 ---
 
-## 🧩 Current Progress (50 Problems Solved)
+## 🧩 Current Progress (51 Problems Solved)
 
 | #  | Problem | Difficulty | Date Solved |
 |----|----------|-------------|--------------|
@@ -59,6 +59,7 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |48  | 1342. Number of Steps to Reduce a Number to Zero | Easy | Dec 4, 2025 |
 |49  | 1523. Count Odd Numbers in an Interval Range | Easy | Dec 5, 2025 |
 |50  | 1480. Running Sum of 1D Array | Easy | Dec 6, 2025 |
+|51 | 605. Can Place Flowers | Easy | Dec 7, 2025 |
 
 ---
 
@@ -128,10 +129,10 @@ Long-term:
 
 ---
 
-## 📊 Stats (as of Dec 6, 2025)
+## 📊 Stats (as of Dec 7, 2025)
 
-- **Total Problems Solved:** 50  
-- **Easy:** 43  
+- **Total Problems Solved:** 51  
+- **Easy:** 44  
 - **Medium:** 7  
 - **Hard:** 0  
 - **Current Focus:** Prefix Sum + Math + Sliding Window  
