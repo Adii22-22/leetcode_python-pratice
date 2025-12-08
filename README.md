@@ -5,7 +5,7 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 
 ---
 
-## 🧩 Current Progress (51 Problems Solved)
+## 🧩 Current Progress (55 Problems Solved)
 
 | #  | Problem | Difficulty | Date Solved |
 |----|----------|-------------|--------------|
@@ -60,6 +60,10 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |49  | 1523. Count Odd Numbers in an Interval Range | Easy | Dec 5, 2025 |
 |50  | 1480. Running Sum of 1D Array | Easy | Dec 6, 2025 |
 |51  | 605. Can Place Flowers | Easy | Dec 7, 2025 |
+|52  | 191. Number of 1 Bits | Easy | Dec 8, 2025 |
+|53  | 704. Binary Search | Easy | Dec 8, 2025 |
+|54  | 485. Max Consecutive Ones | Easy | Dec 8, 2025 |
+|55  | 1925. Count Square Sum Triples | Easy | Dec 8, 2025 |
 
 ---
 
@@ -110,7 +114,7 @@ Core objectives:
 ## 🗓 Progress Plan
 
 Short-term goals:
-- Reach **55 solved problems**  
+- Reach **60 solved problems**  
 - Continue **1 problem daily**  
 - Add more **Medium** problems (2–3 per week)  
 
@@ -129,14 +133,14 @@ Long-term:
 
 ---
 
-## 📊 Stats (as of Dec 7, 2025)
+## 📊 Stats (as of Dec 8, 2025)
 
-- **Total Problems Solved:** 51  
-- **Easy:** 44  
+- **Total Problems Solved:** 55  
+- **Easy:** 48  
 - **Medium:** 7  
 - **Hard:** 0  
 - **Current Focus:** Prefix Sum + Math + Sliding Window  
-- **Next Milestone:** 55 problems  
+- **Next Milestone:** 60 problems  
 
 ---
 
