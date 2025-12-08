@@ -6,3 +6,11 @@
 #   This effectively measures the Hamming Weight of the integer.
 # Time Complexity: O(1)  # 32-bit integer, constant operations
 # Space Complexity: O(1)
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        binary = bin(n)[2:]
+        count = 0
+        for one in binary:
+            if one == "1":
+                count += 1
+        return count
