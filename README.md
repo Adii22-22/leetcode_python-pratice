@@ -59,7 +59,7 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |48  | 1342. Number of Steps to Reduce a Number to Zero | Easy | Dec 4, 2025 |
 |49  | 1523. Count Odd Numbers in an Interval Range | Easy | Dec 5, 2025 |
 |50  | 1480. Running Sum of 1D Array | Easy | Dec 6, 2025 |
-|51 | 605. Can Place Flowers | Easy | Dec 7, 2025 |
+|51  | 605. Can Place Flowers | Easy | Dec 7, 2025 |
 
 ---
 
