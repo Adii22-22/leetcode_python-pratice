@@ -8,3 +8,14 @@
 #   The remaining stack contents form the final string with all adjacent duplicates removed.
 # Time Complexity: O(n)       # each character is pushed/popped at most once
 # Space Complexity: O(n)      # stack used to store non-duplicate characters
+class Solution:
+    def removeDuplicates(self, s: str) -> str:
+        stack = []
+        for char in s:
+            if not stack:
+                stack.append(char)
+            elif char == stack[-1]:
+                stack.pop()
+            else:
+                stack.append(char)
+        return "".join(stack)
