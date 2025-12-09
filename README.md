@@ -65,6 +65,8 @@ Each solution follows a clean structure, clear comments, and proper problem docu
 |54  | 485. Max Consecutive Ones | Easy | Dec 8, 2025 |
 |55  | 1925. Count Square Sum Triples | Easy | Dec 8, 2025 |
 |56  | 1047. Remove All Adjacent Duplicates in String | Easy | Dec 9, 2025 |
+|57  | 1365. How Many Numbers Are Smaller Than the Current Number | Easy | Dec 9, 2025 |
+
 
 
 ---
@@ -135,10 +137,10 @@ Long-term:
 
 ---
 
-## 📊 Stats (as of Dec 8, 2025)
+## 📊 Stats (as of Dec 9, 2025)
 
-- **Total Problems Solved:** 55  
-- **Easy:** 48  
+- **Total Problems Solved:** 57 
+- **Easy:** 50  
 - **Medium:** 7  
 - **Hard:** 0  
 - **Current Focus:** Prefix Sum + Math + Sliding Window  
