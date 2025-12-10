@@ -23,4 +23,17 @@
 # Time Complexity: O(n)
 # Space Complexity: O(1)
 # -------------------------------------------------------------
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]: # type: ignore
+        left = 0
+        right = len(numbers) - 1
+        while left <= right:
+            Sum  = numbers[left] + numbers[right]
 
+            if Sum == target:
+                return [left+1, right+1]
+            
+            if Sum < target:
+                left +=1
+            else:
+                right -=1
