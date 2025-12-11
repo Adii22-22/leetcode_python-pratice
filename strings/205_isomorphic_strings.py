@@ -23,3 +23,22 @@
 # Time Complexity: O(n)
 # Space Complexity: O(1)  # bounded by character set size
 # -------------------------------------------------------------
+class Solution:
+    def isIsomorphic(self, s: str, t: str) -> bool:
+        dictt_st = {}
+        dictt_ts = {}
+        for i in range(len(s)):
+            if s[i] in dictt_st:
+                if dictt_st[s[i]] != t[i]:
+                    return False
+            else:
+                dictt_st[s[i]] = t[i]
+            
+
+            if t[i] in dictt_ts:
+                if dictt_ts[t[i]] != s[i]:
+                    return False
+            else:
+                dictt_ts[t[i]] = s[i]
+
+        return True
