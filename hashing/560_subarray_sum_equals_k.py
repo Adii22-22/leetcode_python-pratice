@@ -21,3 +21,14 @@
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 # -------------------------------------------------------------
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int: # type: ignore
+        dictt = defaultdict(int) # type: ignore
+        count = 0
+        Sum = 0
+        dictt[0] = 1
+        for num in nums:
+            Sum += num
+            count += dictt[Sum - k]
+            dictt[Sum] += 1
+        return count
