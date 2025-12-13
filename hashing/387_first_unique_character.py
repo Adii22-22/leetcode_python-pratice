@@ -24,3 +24,15 @@
 # Time Complexity: O(n)
 # Space Complexity: O(1) — fixed alphabet size
 # -------------------------------------------------------------
+class Solution:
+    def firstUniqChar(self, s: str) -> int:
+        unique_char = defaultdict(int) # type: ignore
+
+        for char in s:
+            unique_char[char] +=1
+            
+        for first in range(len(s)):
+            if unique_char[s[first]] == 1:
+                return first
+
+        return -1
