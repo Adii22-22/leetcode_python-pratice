@@ -27,3 +27,26 @@
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 # -------------------------------------------------------------
+class Solution:
+    def wordPattern(self, pattern: str, s: str) -> bool:
+        matching = {}
+        matching_p  = {}
+        string = s.split()
+
+        if len(string) != len(pattern):
+                return False
+            
+        for i in range(len(string)):
+            if string[i] in matching:
+                if matching[string[i]] != pattern[i]:
+                    return False    
+            else:
+                matching[string[i]] = pattern[i]
+        
+            if pattern[i] in matching_p:
+               if matching_p[pattern[i]] != string[i]: 
+                    return False
+            else:
+                matching_p[pattern[i]] = string[i]
+
+        return True
