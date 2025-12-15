@@ -1,6 +1,6 @@
 # LeetCode 409 - Longest Palindrome
 # Difficulty: Easy
-# Topic: HashMap /Sliding window/ Greedy
+# Topic: HashMap / Greedy
 #
 # Approach:
 # Count frequency of each character.
@@ -10,3 +10,24 @@
 #
 # Time Complexity: O(n)
 # Space Complexity: O(1)
+class Solution:
+    def longestPalindrome(self, s: str) -> int:
+        frequency = defaultdict(int) # type: ignore
+        for char in s:
+            frequency[char]+= 1
+
+        length = 0
+        odd_found = False
+        for count in frequency.values():
+            if count % 2 ==0:
+                length += count
+            else:
+                length += count - 1
+                odd_found = True
+            
+        if odd_found:
+            length +=1
+
+        return length
+
+
