@@ -11,7 +11,7 @@ Each solution includes clean structure, detailed comments, and is organized by D
 - **Easy:** 60  
 - **Medium:** 13  
 - **Hard:** 0  
-- **Next Milestone:** 65 Problems  
+- **Next Milestone:** 75 Problems  
 - **Last Updated:** Dec 12, 2025  
 
 I solve problems daily as part of my backend + DSA roadmap.
