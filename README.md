@@ -7,9 +7,9 @@ Each solution includes clean structure, detailed comments, and is organized by D
 
 ## 🧩 Current Progress
 
-- **Total Problems Solved:** 64  
-- **Easy:** 54  
-- **Medium:** 10  
+- **Total Problems Solved:** 73  
+- **Easy:** 60  
+- **Medium:** 13  
 - **Hard:** 0  
 - **Next Milestone:** 65 Problems  
 - **Last Updated:** Dec 12, 2025  
