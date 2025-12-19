@@ -9,3 +9,20 @@
 #
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+class Solution:
+    def maximumUniqueSubarray(self, nums: List[int]) -> int: # type: ignore
+        l = 0
+        seen = set()
+        current_sum = 0
+        max_sum = 0
+
+        for r in range(0,len(nums)):
+            while nums[r] in seen:
+                seen.remove(nums[l])
+                current_sum -= nums[l]
+                l+=1
+            
+            seen.add(nums[r])
+            current_sum += nums[r]
+            max_sum = max(max_sum,current_sum)
+        return max_sum
