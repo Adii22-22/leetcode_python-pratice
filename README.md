@@ -7,12 +7,12 @@ Each solution includes clean structure, detailed comments, and is organized by D
 
 ## 🧩 Current Progress
 
-- **Total Problems Solved:** 76  
+- **Total Problems Solved:** 77  
 - **Easy:** 63 
-- **Medium:** 13  
+- **Medium:** 14  
 - **Hard:** 0  
 - **Next Milestone:** 80 Problems  
-- **Last Updated:** Dec 18, 2025  
+- **Last Updated:** Dec 19, 2025  
 
 I solve problems daily as part of my backend + DSA roadmap.
 
