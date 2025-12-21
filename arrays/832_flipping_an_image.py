@@ -10,3 +10,13 @@
 #
 # Time Complexity: O(n * m)
 # Space Complexity: O(1)
+class Solution:
+    def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]: # type: ignore
+        for rows in image:
+            rows.reverse()
+            for i in range(len(rows)):
+                if rows[i] == 0:
+                    rows[i] = 1
+                else:
+                    rows[i] = 0
+        return image
