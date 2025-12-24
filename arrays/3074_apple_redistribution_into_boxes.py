@@ -9,3 +9,12 @@
 #
 # Time Complexity: O(n log n)
 # Space Complexity: O(1)
+class Solution:
+    def minimumBoxes(self, apple: List[int], capacity: List[int]) -> int: # type: ignore
+        total_apple = sum(apple)
+        capacity.sort(reverse=True)
+        box_sum = 0
+        for i in range(0,len(capacity)):
+            box_sum += capacity[i]
+            if box_sum >= total_apple:
+                return i+1
