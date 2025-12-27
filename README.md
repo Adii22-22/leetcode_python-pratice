@@ -7,8 +7,8 @@ Each solution follows a clean structure, uses pattern-based organization, and in
 
 ## 🧩 Current Progress
 
-- **Total Problems Solved:** **89**
-- **Easy:** **71**
+- **Total Problems Solved:** **90**
+- **Easy:** **72**
 - **Medium:** **18**
 - **Hard:** **0**
 - **Last Updated:** **Dec 27, 2025**
