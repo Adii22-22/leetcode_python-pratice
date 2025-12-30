@@ -11,3 +11,15 @@
 # Time Complexity: O(n * k log k), where n is the number of words
 # and k is the maximum length of a word.
 # Space Complexity: O(n * k)
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]: # type: ignore
+        group = {}
+        for word in strs:
+            sorted_word = sorted(word)
+            key = "".join(sorted_word)
+
+            if key in group:
+                group[key].append(word)
+            else:
+                group[key] = [word]
+        return list(group.values())
