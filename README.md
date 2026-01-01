@@ -9,9 +9,9 @@ Each solution follows a clean structure, uses pattern-based organization, and in
 
 - **Total Problems Solved:** **100**
 - **Easy:** **76**
-- **Medium:** **24**
+- **Medium:** **25**
 - **Hard:** **0**
-- **Last Updated:** **Dec 31, 2025**
+- **Last Updated:** **Jan 1, 2026**
 
 I solve problems daily as part of my **backend + DSA preparation roadmap**, with a strong focus on fundamentals and consistency.
 
