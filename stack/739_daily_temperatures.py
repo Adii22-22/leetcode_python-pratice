@@ -11,3 +11,15 @@
 #
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+class Solution:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]: # type: ignore
+        n = len(temperatures)
+        stack = []
+        result = [0] * n
+
+        for i in range(n):
+            while stack and temperatures[i] > temperatures[stack[-1]]:
+                prev_day = stack.pop()
+                result[prev_day] = i - prev_day
+            stack.append(i)
+        return result
