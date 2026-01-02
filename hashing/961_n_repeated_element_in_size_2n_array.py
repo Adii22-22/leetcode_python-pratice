@@ -8,3 +8,10 @@
 #
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+class Solution:
+    def repeatedNTimes(self, nums: List[int]) -> int: # type: ignore
+        seen = set()
+        for num in nums:
+            if num in seen:
+                return num
+            seen.add(num)
