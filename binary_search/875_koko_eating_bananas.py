@@ -9,3 +9,20 @@
 #
 # Time Complexity: O(n log M), where n is the number of piles and M is the maximum pile size
 # Space Complexity: O(1)
+import math
+class Solution:
+    def minEatingSpeed(self, piles: List[int], h: int) -> int: # type: ignore
+        low = 1
+        high = max(piles)
+        while low <= high:
+            total = 0
+            mid = low + (high-low) // 2
+            for i in piles:
+                one_pile = math.ceil(i/mid)
+                total +=one_pile
+
+            if total <=h:
+                high  = mid-1
+            else:
+                low = mid+1
+        return low
