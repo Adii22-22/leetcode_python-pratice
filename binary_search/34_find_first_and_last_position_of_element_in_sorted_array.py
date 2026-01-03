@@ -10,3 +10,32 @@
 #
 # Time Complexity: O(log n)
 # Space Complexity: O(1)
+class Solution:
+    def searchRange(self, nums: List[int], target: int) -> List[int]: # type: ignore
+        low = 0
+        high = len(nums)-1
+        left_answer = -1
+        while low <= high:
+            mid = low + (high-low) // 2
+            if nums[mid] == target:
+                left_answer = mid
+                high = mid-1   
+            elif nums[mid] < target:
+                low = mid+1
+            else:
+                high = mid-1
+            
+        low = 0
+        high = len(nums)-1 
+        right_answer = -1
+        while low <= high:
+            mid = low + (high-low) // 2
+            if nums[mid] == target:
+                right_answer = mid
+                low  = mid+1  
+            elif nums[mid] < target:
+                low = mid+1
+            else:
+                high = mid-1
+
+        return left_answer,right_answer
