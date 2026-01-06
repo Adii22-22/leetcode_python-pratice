@@ -7,11 +7,11 @@ Each solution follows a clean structure, uses pattern-based organization, and in
 
 ## 🧩 Current Progress
 
-- **Total Problems Solved:** **116**
+- **Total Problems Solved:** **117**
 - **Easy:** **81**
-- **Medium:** **34**
+- **Medium:** **35**
 - **Hard:** **1**
-- **Last Updated:** **Jan 5, 2026**
+- **Last Updated:** **Jan 6, 2026**
 
 I solve problems daily as part of my **backend + DSA preparation roadmap**, with a strong focus on fundamentals and consistency.
 
@@ -32,11 +32,11 @@ prefix_sum/
 sliding_window/
 stack/
 strings/
+tree/
 two_pointers/
 
 Planned folders as I progress further:
 linked_list/
-tree/
 graph/
 heap/
 recursion/
