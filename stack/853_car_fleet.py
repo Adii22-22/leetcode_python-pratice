@@ -17,3 +17,19 @@
 #
 # Time Complexity: O(n log n) due to sorting
 # Space Complexity: O(n) for the stack
+class Solution:
+    def carFleet(self, target: int, position: List[int], speed: List[int]) -> int: # type: ignore
+        time_to_reach = 0
+        x = sorted(zip(position,speed))
+        stack = []
+        for pos,spd in reversed(x):
+            time_to_reach  = (target - pos) / spd
+            if not stack:
+                stack.append(time_to_reach)
+            elif stack:
+                if time_to_reach > stack[-1]:
+                    stack.append(time_to_reach)
+                else:
+                    pass
+
+        return len(stack)
