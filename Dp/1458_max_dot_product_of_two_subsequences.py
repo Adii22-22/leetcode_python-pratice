@@ -23,3 +23,27 @@
 #
 # Time Complexity: O(n * m)
 # Space Complexity: O(n * m)
+class Solution:
+    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int: # type: ignore
+        n = len(nums1)
+        m = len(nums2)
+        memo = {}
+
+        def dp(i,j):
+            if i == n or j==m:
+                return float("-inf")
+
+            if (i,j) in memo:
+                return memo[(i,j)]
+
+            option1 = nums1[i] * nums2[j]
+            option1 = option1 + max(0,dp(i+1,j+1))
+
+            option2 = dp(i+1, j)
+            option3 = dp(i,j+1)
+
+            memo[(i,j)] = max(option1,option2,option3)
+            return memo[(i,j)]
+
+        return dp(0,0)
+      
