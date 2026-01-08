@@ -19,3 +19,14 @@
 #
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+class Solution:
+    def numSubarraysWithSum(self, nums: List[int], goal: int) -> int: # type: ignore
+        count = 0
+        dictt = defaultdict(int) # type: ignore
+        total = 0
+        dictt[0] = 1
+        for num in nums:
+            total += num
+            count += dictt[total-goal]
+            dictt[total] += 1
+        return count
