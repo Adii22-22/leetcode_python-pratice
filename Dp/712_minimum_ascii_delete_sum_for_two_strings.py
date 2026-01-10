@@ -21,3 +21,26 @@
 #
 # Time Complexity: O(n * m), where n = len(s1), m = len(s2)
 # Space Complexity: O(n * m) due to memoization
+class Solution:
+    def minimumDeleteSum(self, s1: str, s2: str) -> int:
+        memo = {}
+        def dp(i,j):
+            if (i,j) in memo:
+                return memo[(i,j)]
+
+            if i == len(s1) or j == len(s2):
+                if i == len(s1):
+                    return sum(ord(ch) for ch in s2[j:])
+                else:
+                    return sum(ord(ch) for ch in s1[i:])
+            
+            if s1[i] == s2[j]:
+                result = dp(i+1,j+1)
+                memo[(i,j)] = result
+                return result
+            else:
+                result = min(ord(s1[i]) + dp(i+1,j), ord(s2[j]) + dp(i,j+1))
+                memo[(i,j)] = result
+                return result
+
+        return dp(0,0)
