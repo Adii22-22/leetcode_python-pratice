@@ -20,3 +20,30 @@
 #
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+class Solution:
+    def calculate(self, s: str) -> int:
+        stack = []
+        current_num = 0
+        prev_op = '+'
+
+        for i in range(len(s)):
+            ch = s[i]
+
+            if ch.isdigit():
+                current_num = current_num * 10 + int(ch)
+
+            if ch in '+-*/' or i == len(s) - 1:
+                if prev_op == '+':
+                    stack.append(current_num)
+                elif prev_op == '-':
+                    stack.append(-current_num)
+                elif prev_op == '*':
+                    stack.append(stack.pop() * current_num)
+                elif prev_op == '/':
+                    stack.append(int(stack.pop() / current_num))
+
+                prev_op = ch
+                current_num = 0
+
+        return sum(stack)
+
