@@ -19,3 +19,13 @@
 #
 # Time Complexity: O(n), where n is the number of points
 # Space Complexity: O(1)
+class Solution:
+    def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int: # type: ignore
+        seconds = 0
+        for i in range(len(points)-1):
+            current_points = points[i]
+            next_points = points[i+1]
+
+            seconds += max(abs(current_points[0]- next_points[0]), abs(current_points[1] - next_points[1]))
+        return seconds
+        
