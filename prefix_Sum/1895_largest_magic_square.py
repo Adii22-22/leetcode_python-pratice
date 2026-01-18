@@ -24,3 +24,50 @@
 #
 # Time Complexity: O(m * n * min(m, n))
 # Space Complexity: O(m * n)
+class Solution:
+    def largestMagicSquare(self, grid: List[List[int]]) -> int: # type: ignore
+        m, n = len(grid), len(grid[0])
+        
+        row = [[0]*(n+1) for _ in range(m)]
+        col = [[0]*n for _ in range(m+1)]
+        d1 = [[0]*(n+1) for _ in range(m+1)]
+        d2 = [[0]*(n+2) for _ in range(m+1)]
+        
+        for i in range(m):
+            for j in range(n):
+                row[i][j+1] = row[i][j] + grid[i][j]
+                col[i+1][j] = col[i][j] + grid[i][j]
+                d1[i+1][j+1] = d1[i][j] + grid[i][j]
+                d2[i+1][j] = d2[i][j+1] + grid[i][j]
+        
+        def get_row(i, j, k):
+            return row[i][j+k] - row[i][j]
+        
+        def get_col(i, j, k):
+            return col[i+k][j] - col[i][j]
+        
+        def get_d1(i, j, k):
+            return d1[i+k][j+k] - d1[i][j]
+        
+        def get_d2(i, j, k):
+            return d2[i+k][j] - d2[i][j+k]
+        
+        ans = 1
+        
+        for k in range(2, min(m, n) + 1):
+            for i in range(m - k + 1):
+                for j in range(n - k + 1):
+                    target = get_row(i, j, k)
+                    if get_d1(i, j, k) != target or get_d2(i, j, k) != target:
+                        continue
+                    
+                    ok = True
+                    for t in range(k):
+                        if get_row(i + t, j, k) != target or get_col(i, j + t, k) != target:
+                            ok = False
+                            break
+                    
+                    if ok:
+                        ans = k
+        
+        return ans
