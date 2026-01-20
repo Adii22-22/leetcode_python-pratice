@@ -20,3 +20,14 @@
 #
 # Time Complexity: O(n * log M), where M is the maximum value in nums
 # Space Complexity: O(1)
+class Solution:
+    def minBitwiseArray(self, nums: List[int]) -> List[int]: # type: ignore
+        for i in range(len(nums)):
+            res = -1
+            d = 1
+            while (nums[i] & d) != 0:
+                res = nums[i] - d
+                d <<= 1
+            nums[i] = res
+        return nums
+        
