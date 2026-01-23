@@ -21,3 +21,17 @@
 #
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+class Solution:
+    def nextGreaterElements(self, nums: List[int]) -> List[int]: # type: ignore
+        n = len(nums)
+        stack = []
+        res = [-1] * n 
+
+        for i in range(2*n):
+            current = nums[i%n]
+            while stack and current > nums[stack[-1]]:
+                j = stack.pop()
+                res[j] = current
+            if i < n:
+                stack.append(i)
+        return res
