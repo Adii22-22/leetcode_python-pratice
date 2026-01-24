@@ -15,3 +15,15 @@
 #
 # Time Complexity: O(n log n) due to sorting
 # Space Complexity: O(1) extra space
+class Solution:
+    def minPairSum(self, nums: List[int]) -> int: # type: ignore
+        nums.sort()
+        l = 0
+        r = len(nums)-1
+        ans = 0
+        while l < r:
+            ans = max(ans,nums[l]+nums[r])
+            l+=1
+            r-=1
+        
+        return  ans
