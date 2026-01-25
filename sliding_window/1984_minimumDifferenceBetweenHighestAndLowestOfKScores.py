@@ -15,3 +15,13 @@
 #
 # Time Complexity: O(n log n) due to sorting
 # Space Complexity: O(1) extra space
+class Solution:
+    def minimumDifference(self, nums: List[int], k: int) -> int: # type: ignore
+        if k == 1:
+            return 0
+        
+        nums.sort()
+        ans = float("inf")
+        for i in range(len(nums)-k+1):
+            ans = min(ans,nums[i+k-1]-nums[i])
+        return ans
