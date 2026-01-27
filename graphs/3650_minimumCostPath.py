@@ -21,3 +21,25 @@
 #
 # Time Complexity: O((n + m) log n), where m is the number of edges
 # Space Complexity: O(n + m)
+class Solution:
+    def minCost(self, n: int, edges: List[List[int]]) -> int: # type: ignore
+        g = [[] for _ in range(n)]
+        for u,v,w in edges:
+            g[u].append((v,w))
+            g[v].append((u,2*w))
+        dist = [float("inf")] * n
+        dist[0] = 0
+        heap = [(0,0)]
+        visited = [False] * n
+
+        while heap:
+            d,u = heapq.heappop(heap) # type: ignore
+            if u == n-1: return d
+            if visited[u]: continue
+            visited[u] = True
+
+            for v,weight in g[u]:
+                if dist[u] + weight < dist[v]:
+                    dist[v] = dist[u] + weight
+                    heapq.heappush(heap,(dist[v], v)) # type: ignore
+        return -1        
