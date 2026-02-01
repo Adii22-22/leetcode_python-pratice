@@ -15,3 +15,8 @@
 #
 # Time Complexity: O(n log n) due to sorting
 # Space Complexity: O(1) extra space (ignoring input array)
+class Solution:
+    def minimumCost(self, nums: List[int]) -> int: # type: ignore
+        rest = nums[1:]
+        rest.sort()
+        return nums[0] + rest[0] + rest[1]
