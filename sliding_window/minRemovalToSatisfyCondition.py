@@ -14,3 +14,16 @@
 #
 # Time Complexity: O(n log n) due to sorting
 # Space Complexity: O(1)
+class Solution:
+    def minRemoval(self, nums: List[int], k: int) -> int: # type: ignore
+        nums.sort()
+        n = len(nums)
+        i = 0
+        max_window = 0
+
+        for j in range(n):
+            while nums[j] > nums[i] * k:
+                i += 1
+            max_window = max(max_window, j - i + 1)
+
+        return n - max_window
