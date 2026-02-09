@@ -69,7 +69,6 @@ Core objectives:
 ### Short-term Goals
 - Maintain **daily LeetCode practice**
 - Gradually increase **Medium-level problem exposure**
-- Strengthen **Sliding Window** and **Prefix Sum** patterns
 - Improve speed and confidence in Easy problems
 
 ### Long-term Goals
