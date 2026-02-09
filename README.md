@@ -75,7 +75,7 @@ Core objectives:
 - Transition into **Backend Development (Python / FastAPI)**
 - Learn **SQL** and **Docker** fundamentals
 - Build **resume-ready backend projects**
-- Become internship / job ready by **Jan–Feb 2026**
+- Become internship / job ready by **Feb-Mar 2026**
 
 ---
 
