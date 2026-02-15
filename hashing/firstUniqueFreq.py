@@ -27,3 +27,23 @@
 # Space Complexity: O(n)
 #   - For frequency dictionary
 #   - For count_freq dictionary
+from collections import OrderedDict
+class Solution:
+    def firstUniqueFreq(self, nums: List[int]) -> int: # type: ignore
+        freq = OrderedDict()
+        for num in nums:
+            if num in freq:
+                freq[num] +=1
+            else:
+                freq[num] = 1
+        count_freq = {}
+        for count in freq.values():
+            if count in count_freq:
+                count_freq[count] +=1
+            else:
+                count_freq[count] = 1
+        for num in freq:
+            x = freq[num]
+            if count_freq[x] ==1:
+                return num
+        return -1
