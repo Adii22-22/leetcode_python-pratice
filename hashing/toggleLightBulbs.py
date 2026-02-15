@@ -20,3 +20,13 @@
 #
 # Space Complexity: O(k)
 #   - k = number of bulbs left ON
+class Solution:
+    def toggleLightBulbs(self, bulbs: list[int]) -> list[int]:
+        ON = set()
+        for bulb in bulbs:
+            if bulb in ON:
+                ON.remove(bulb)
+            else:
+                ON.add(bulb)
+        return sorted(list(ON))
+        
