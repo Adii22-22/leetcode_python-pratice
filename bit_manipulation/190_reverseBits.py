@@ -33,3 +33,22 @@
 #   int('{:032b}'.format(n)[::-1], 2)
 #
 # However, interviewers usually prefer the bit-manipulation solution.
+class Solution:
+    def reverseBits(self, n: int) -> int:
+        res = 0
+        for _ in range(32):
+            #left shift to make room 
+            res = res << 1
+            #get the last bit on n
+            bit = n & 1
+            #add the res using logical or
+            res = res | bit
+            #shift n bit to right for processing the next bit 
+            n = n >> 1
+        return res
+
+
+#pythonic answer: 
+class Solution:
+    def reverseBits(self, n: int) -> int:
+        return int('{:032b}'.format(n)[::-1], 2)
