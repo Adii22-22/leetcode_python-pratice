@@ -32,3 +32,16 @@
 # O(k), where k is number of valid times returned
 #
 # This is clean, simple, and interview-acceptable.
+class Solution:
+    def readBinaryWatch(self, turnedOn: int) -> List[str]: # type: ignore
+        times = []
+        for i in range(12):
+            for j in range(60):
+                x = i.bit_count()
+                y = j.bit_count()
+                if x+y == turnedOn:
+                    if j < 10:
+                        times.append(f"{i}:0{j}")
+                    else:
+                        times.append(f"{i}:{j}")
+        return times    
