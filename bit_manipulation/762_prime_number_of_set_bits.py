@@ -44,3 +44,33 @@
 # Note:
 # Using a precomputed prime set is faster than
 # checking primality every time.
+
+import math
+class Solution:
+    def countPrimeSetBits(self, left: int, right: int) -> int:
+        primes = {2,3,5,7,11,13,17,19,23,29,31}
+        prime_number = 0
+        for number in range(left,right+1):
+            if number.bit_count() in primes:
+                prime_number +=1
+        return prime_number
+    
+
+#SUBOPTIMAL SOLUTION => O((R−L)∗Sqrt(Log(R)))
+class Solution:
+    def countPrimeSetBits(self, left: int, right: int) -> int:
+        prime_number = 0
+        def isprime(num):
+            if num <=1: return False
+            for i in range(2,int(math.sqrt(num))+1):
+                if num % i == 0:return False
+            return True
+        for number in range(left,right+1):
+            if isprime(number.bit_count()) == True:
+                prime_number+=1
+        return prime_number     
+    
+#bit masking 
+class Solution:
+    def countPrimeSetBits(self, left: int, right: int) -> int:
+        return sum(1 for i in range(left, right + 1) if (665772 >> i.bit_count()) & 1)
