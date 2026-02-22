@@ -51,3 +51,31 @@
 # ---------------------------------------------------------
 # This is more optimal than the string-based version
 # because it avoids creating a binary string.
+class Solution:
+    def binaryGap(self, n: int) -> int:
+        max_distance = 0
+        last_one_seen = -1
+        position = 0
+        
+        while n > 0:
+            if n & 1 == 1: 
+                if last_one_seen != -1:
+                    max_distance = max(max_distance, position - last_one_seen)
+                last_one_seen = position
+            
+            n >>= 1 
+            position += 1
+            
+        return max_distance
+#less optimal
+class Solution:
+    def binaryGap(self, n: int) -> int:
+        max_distance = 0
+        last_one_seen = -1
+        s = bin(n)
+        for i, digit in enumerate(s):
+            if digit == '1':
+                if last_one_seen != -1:
+                    max_distance = max(max_distance,(i-last_one_seen))
+                last_one_seen = i
+        return max_distance
