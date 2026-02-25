@@ -58,3 +58,20 @@
 # sorted(arr, key=lambda x: (x.bit_count(), x))
 #
 # Cleaner and faster in practice.
+
+
+#Brian Kernighan's Algorithm
+class Solution:
+    def sortByBits(self, arr: List[int]) -> List[int]: # type: ignore
+        def count_bits(n:int) -> int:
+            count = 0
+            while n > 0:
+                n = n & (n-1)
+                count+=1
+            return count
+        return sorted(arr,key=lambda x : (count_bits(x),x))
+
+#pythonic solution 
+# class Solution:
+#     def sortByBits(self, arr: List[int]) -> List[int]:
+#         return sorted(arr,key= lambda x: (x.bit_count(),x))
