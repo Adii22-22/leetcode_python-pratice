@@ -35,11 +35,12 @@ stack/
 strings/
 tree/
 two_pointers/
+recursion/
 
 Planned folders as I progress further:
 linked_list/
 heap/
-recursion/
+
 
 ---
 
