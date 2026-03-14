@@ -55,3 +55,22 @@
 # Note:
 # A more optimized solution can stop recursion once
 # the k-th string is found instead of generating all.
+
+class Solution:
+    def getHappyString(self, n: int, k: int) -> str:
+        result = []
+        
+        def lexi(lexi_string):
+            if len(lexi_string) == n:
+                result.append(lexi_string)
+                return 
+            
+            for char in ['a','b','c']:
+                if not lexi_string or lexi_string[-1] != char:
+                    lexi(lexi_string + char) 
+        
+        lexi("")
+        if len(result) < k:
+            return ""
+        else:
+            return result[k-1]
