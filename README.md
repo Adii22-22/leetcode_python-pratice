@@ -41,7 +41,6 @@ Planned folders as I progress further:
 linked_list/
 heap/
 
-
 ---
 
 ## 🎯 Learning Focus (Current)
@@ -76,7 +75,7 @@ Core objectives:
 - Transition into **Backend Development (Python / FastAPI)**
 - Learn **SQL** and **Docker** fundamentals
 - Build **resume-ready backend projects**
-- Become internship / job ready by **Feb-Mar 2026**
+
 
 ---
 
