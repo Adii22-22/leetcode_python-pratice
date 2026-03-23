@@ -28,8 +28,10 @@ Dp/
 graph/
 greedy/
 hashing/
+invtervals/
 math/
 prefix_sum/
+recursion/
 sliding_window/
 stack/
 strings/
