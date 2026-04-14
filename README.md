@@ -7,11 +7,11 @@ Each solution follows a clean structure, uses pattern-based organization, and in
 
 ## 🧩 Current Progress
 
-- **Total Problems Solved:** **280**
-- **Easy:** **144**
-- **Medium:** **113**
-- **Hard:** **23**
-- **Last Updated:** **Apr 13 2026**
+- **Total Problems Solved:** **283**
+- **Easy:** **145**
+- **Medium:** **114**
+- **Hard:** **24**
+- **Last Updated:** **Apr 14 2026**
 
 I solve problems daily as part of my **backend + DSA preparation roadmap**, with a strong focus on fundamentals and consistency.
 
